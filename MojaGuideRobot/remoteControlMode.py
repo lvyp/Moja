@@ -16,10 +16,10 @@ def remoteControlMode():
     event = globalVariable.get_event()
     rLock = threading.RLock()
     while 1:
-        rLock.acquire()
         logger.info("线程：" + threading.current_thread().name + " Id:" + str(threading.get_ident()))
         event.wait()
+        rLock.acquire()
         # 代码实现部分
         # 代码实现部分
-        event.clear()
         rLock.release()
+        event.clear()
