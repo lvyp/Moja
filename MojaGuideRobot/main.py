@@ -27,21 +27,25 @@ if __name__ == '__main__':
     # 创建线程：
     speechRecognition = threading.Thread(target=speechRecognitionMode)
     actionControl = threading.Thread(target=actionControlMode)
-    #dualRobotInteraction = threading.Thread(target=dualRobotInteractionMode)
-    #mapRouteSetting = threading.Thread(target=mapRouteSettingMode)
+    # dualRobotInteraction = threading.Thread(target=dualRobotInteractionMode)
+    mapRouteSetting = threading.Thread(target=mapRouteSettingMode)
     speechRecognition.setName("speechRecognition")
     actionControl.setName("actionControl")
-    #dualRobotInteraction.setName("dualRobotInteraction")
-    #mapRouteSetting.setName("mapRouteSetting")
+    # dualRobotInteraction.setName("dualRobotInteraction")
+    mapRouteSetting.setName("mapRouteSetting")
 
-    #remoteControl = threading.Thread(target=remoteControlMode)
-    #accessSystemUpdateRegularly = threading.Thread(target=accessSystemUpdateRegularlyMode)
-    #remoteControl.setName("remoteControl")
-    #accessSystemUpdateRegularly.setName("accessSystemUpdateRegularly")
+    # remoteControl = threading.Thread(target=remoteControlMode)
+    # accessSystemUpdateRegularly = threading.Thread(target=accessSystemUpdateRegularlyMode)
+    # remoteControl.setName("remoteControl")
+    # accessSystemUpdateRegularly.setName("accessSystemUpdateRegularly")
 
     # 添加到线程组
     threads.append(speechRecognition)
     threads.append(actionControl)
+    threads.append(mapRouteSetting)
+    # threads.append(dualRobotInteraction)
+    # threads.append(remoteControl)
+    # threads.append(accessSystemUpdateRegularly)
 
     # 开启线程
     for thread in threads:
