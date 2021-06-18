@@ -16,9 +16,15 @@ def mapRouteSettingMode():
     event = globalVariable.get_event()
     rLock = threading.RLock()
     while 1:
-        logger.info("线程：" + threading.current_thread().name + " Id:" + str(threading.get_ident()))
+        # logger.info("线程：" + threading.current_thread().name + " Id:" + str(threading.get_ident()))
         event.wait()
         rLock.acquire()
+        if globalVariable.get_value("mapRouteSettingFlag") is True:
+            logger.info("地图设置向模块底层发送数据")
+            globalVariable.set_value("mapRouteSettingFlag", False)
+        else:
+            # logger.info("什么都不做")
+            pass
         # 代码实现部分
         # 代码实现部分
         rLock.release()

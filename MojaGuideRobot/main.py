@@ -11,6 +11,7 @@ from speechRecognitionMode import speechRecognitionMode
 from actionControlMode import actionControlMode
 from dualRobotInteractionMode import dualRobotInteractionMode
 from mapRouteSettingMode import mapRouteSettingMode
+from positionInformationFromChassisMode import positionInformationFromChassisMode
 from remoteControlMode import remoteControlMode
 from accessSystemUpdateRegularlyMode import accessSystemUpdateRegularlyMode
 import globalVariable
@@ -20,19 +21,22 @@ if __name__ == '__main__':
     logger.info("墨甲导览机器人启动入口")
     globalVariable._init()
     globalVariable.set_value("actionFlag", False)
+    globalVariable.set_value("mapRouteSettingFlag", False)
 
     # 设置线程组
     threads = []
 
     # 创建线程：
-    speechRecognition = threading.Thread(target=speechRecognitionMode)
     actionControl = threading.Thread(target=actionControlMode)
-    # dualRobotInteraction = threading.Thread(target=dualRobotInteractionMode)
+    dualRobotInteraction = threading.Thread(target=dualRobotInteractionMode)
     mapRouteSetting = threading.Thread(target=mapRouteSettingMode)
+    speechRecognition = threading.Thread(target=speechRecognitionMode)
+    positionInformationFromChassis = threading.Thread(target=positionInformationFromChassisMode)
     speechRecognition.setName("speechRecognition")
     actionControl.setName("actionControl")
-    # dualRobotInteraction.setName("dualRobotInteraction")
+    dualRobotInteraction.setName("dualRobotInteraction")
     mapRouteSetting.setName("mapRouteSetting")
+    positionInformationFromChassis.setName("positionInformationFromChassis")
 
     # remoteControl = threading.Thread(target=remoteControlMode)
     # accessSystemUpdateRegularly = threading.Thread(target=accessSystemUpdateRegularlyMode)
@@ -43,7 +47,8 @@ if __name__ == '__main__':
     threads.append(speechRecognition)
     threads.append(actionControl)
     threads.append(mapRouteSetting)
-    # threads.append(dualRobotInteraction)
+    threads.append(dualRobotInteraction)
+    threads.append(positionInformationFromChassis)
     # threads.append(remoteControl)
     # threads.append(accessSystemUpdateRegularly)
 

@@ -6,13 +6,17 @@ from enum import Enum
 
 def _init():  # 初始化
     global _global_dict
-    global event
-    global intent
-    global slot
+    global _event
+    global _intent
+    global _slot
+    global _position
+
     _global_dict = {}
-    event = threading.Event()
-    intent = IntentEnum.INITIALACTION
-    slot = {'position': SlotPositionEnum.ALL, 'direction': SlotDirectionEnum.UP}
+    _event = threading.Event()
+    _intent = IntentEnum.INITIALACTION
+    _slot = {'position': SlotPositionEnum.ALL, 'direction': SlotDirectionEnum.UP}
+    _position = {"positionA": False, "positionB": False,
+                 "positionC": False, "positionD": False}
 
 
 def set_value(key, value):
@@ -29,7 +33,19 @@ def get_value(key, defValue=None):
 
 
 def get_event():
-    return event
+    return _event
+
+
+def set_position(key, value):
+    _position[key] = value
+
+
+def get_position(key, defValue=None):
+    """ 获得一个全局变量,不存在则返回默认值 """
+    try:
+        return _position[key]
+    except KeyError:
+        return defValue
 
 
 class IntentEnum(Enum):
