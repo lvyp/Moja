@@ -7,23 +7,99 @@
 
 import ctypes
 import threading
-
+import os
 import win32api
-
 import globalVariable
 from loggerMode import logger
 from ctypes import *
+import random
+import pyaudio
+import wave
+from playsound import playsound
+import BaiduCloudClass
+
+
+RESPEAKER_RATE = 16000
+RESPEAKER_CHANNELS = 1  # change base on firmwares, default_firmware.bin as 1 or i6_firmware.bin as 6
+RESPEAKER_WIDTH = 2
+# run getDeviceInfo.py to get index
+RESPEAKER_INDEX = 1  # refer to input device id
+CHUNK = 1024
+RECORD_SECONDS = 5
+WAVE_OUTPUT_FILENAME = "./MicRecording/output.wav"
+WAKEUP_RESPONSE_PATH = "./TtsRecording/wakeUpResponse/"
+TTS_BY_BAIDUCLOUD_PATH = "./TtsRecording/BaiduCloud/TtsResponse.mp3"
+
+
+def PlayVoice(path):
+    playJudge = playsound(path, False)
+    if playJudge is False:
+        logger.info("音频格式不正确，无法播放！！\n")
+    else:
+        logger.info("唤醒词应答已回复！！\n")
+
+
+def wakeUpResponse():
+    # 获取唤醒词文件夹内所有唤醒词名称,进行随机答复
+    wakeUpWordlist = os.listdir(WAKEUP_RESPONSE_PATH)
+    if len(wakeUpWordlist) == 0:
+        logger.info("没有唤醒应答文件唤醒！！答复失败！！\n")
+    else:
+        fileNameStr = random.sample(wakeUpWordlist, 1)
+        logger.info("唤醒词音频为" + fileNameStr[0])
+        PlayVoice(WAKEUP_RESPONSE_PATH + fileNameStr[0])
 
 
 def micGenerateRocord():
+    # 声源定位
+    voiceDirection()
+
+    mojaMic = pyaudio.PyAudio()
+    micInfo = mojaMic.get_host_api_info_by_index(0)
+    numdevices = micInfo.get('deviceCount')
+    for i in range(0, numdevices):
+        if (mojaMic.get_device_info_by_host_api_device_index(0, i).get('maxInputChannels')) > 0:
+            logger.info("Input Device id " + str(i) + " - " + str(mojaMic.get_device_info_by_host_api_device_index(0, i).get('name').encode("GBK", "ignore")))
+            print("Input Device id ", i, " - ", mojaMic.get_device_info_by_host_api_device_index(0, i).get('name'))
+    # 开始录音
+    stream = mojaMic.open(
+        rate=RESPEAKER_RATE,
+        format=mojaMic.get_format_from_width(RESPEAKER_WIDTH),
+        channels=RESPEAKER_CHANNELS,
+        input=True,
+        input_device_index=RESPEAKER_INDEX, )
+    logger.info("* recording")
+
+    frames = []
+
+    for i in range(0, int(RESPEAKER_RATE / CHUNK * RECORD_SECONDS)):
+        data = stream.read(CHUNK)
+        frames.append(data)
+
+    logger.info("* done recording")
+
+    stream.stop_stream()
+    stream.close()
+    mojaMic.terminate()
+
+    wf = wave.open(WAVE_OUTPUT_FILENAME, 'wb')
+    wf.setnchannels(RESPEAKER_CHANNELS)
+    wf.setsampwidth(mojaMic.get_sample_size(mojaMic.get_format_from_width(RESPEAKER_WIDTH)))
+    wf.setframerate(RESPEAKER_RATE)
+    wf.writeframes(b''.join(frames))
+    wf.close()
+
+
+def voiceDirection():
     pass
 
 
 def speechRecognitionMode():
     # 语音识别模块:
-    # 1.获取麦克风数据生成音频文件
-    # 2.将音频文件推送到百度云，获取ASR、NLU以及TTS音频
-    # 3.播放TTS音频并解析NLU，根据相应的意图与槽值发送指令给相应模块
+    # 1.判断是否是唤醒词（科大讯飞SDK）
+    # 2.唤醒后获取麦克风数据生成音频文件
+    # 3.将音频文件推送到百度云，获取ASR、NLU以及TTS音频
+    # 4.播放TTS音频并解析NLU，根据相应的意图与槽值发送指令给相应模块
     logger.info("语音识别模块入口")
     event = globalVariable.get_event()
     rLock = threading.RLock()
@@ -34,21 +110,32 @@ def speechRecognitionMode():
         cppDll = CDLL("awaken_sample")
         cppDll.CFunction.restype = ctypes.c_uint64  # 修改lib.bar返回类型
         returnValue = str(cppDll.CFunction())
-        win32api.FreeLibrary(cppDll._handle)  # 释放DLL资源否则线程再次运行会直接返回上次结果
+        win32api.FreeLibrary(cppDll._handle)  # 释放DLL资源，防止DLL变量未释放影响再次唤醒动作
         if returnValue == "202":
             logger.info("唤醒成功！！\n")
+            # 播放音频回复用户
+            wakeUpResponse()
             # 进行麦克风收音，生成音频文件
             micGenerateRocord()
             # 将音频发送给百度云进行ASR解析
-
+            baiDuCloud = BaiduCloudClass.BaiduCloud()
+            mojaAsr = baiDuCloud.call_asr(WAVE_OUTPUT_FILENAME)
+            logger.info("mojaAsr:" + mojaAsr)
             # 将ASR识别结果发送给NLU进行自然语言处理
-
+            mojaNlu = BaiduCloudClass.Baidu_NLU()
+            answer = mojaNlu.get_NLU(mojaAsr)
+            logger.info("answer:" + str(answer))
+            intent = answer["schema"]["intent"]
+            slots = answer["schema"]["slots"]
+            logger.info("intent: " + str(intent) + "\nslots: " + str(slots))
+            baiDuCloud.call_tts(answer["action_list"][0]["say"])
+            PlayVoice(TTS_BY_BAIDUCLOUD_PATH)
             # 根据NLU返回的intent和slot进行判断控制相应的线程
 
         elif returnValue == "201":
             logger.info("登录失败！！\n")
-
-
+        elif returnValue == "200":
+            logger.info("没有唤醒！！\n")
         globalVariable.set_value("actionFlag", True)
         globalVariable.set_value("mapRouteSettingFlag", True)
         event.set()

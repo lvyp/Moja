@@ -1,0 +1,1443 @@
+2021-06-21 13:56:20,847 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 13:56:20,847 - speechRecognitionMode.py[line:71] - INFO: 语音识别模块入口
+2021-06-21 13:56:20,879 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 13:56:20,879 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 13:56:20,879 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 13:56:20,879 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 13:56:25,965 - speechRecognitionMode.py[line:83] - INFO: 唤醒成功！！
+
+2021-06-21 13:56:25,996 - speechRecognitionMode.py[line:35] - INFO: Input Device id 0
+2021-06-21 13:56:25,996 - speechRecognitionMode.py[line:35] - INFO: Input Device id 1
+2021-06-21 13:56:26,050 - speechRecognitionMode.py[line:35] - INFO: Input Device id 2
+2021-06-21 13:56:26,097 - speechRecognitionMode.py[line:44] - INFO: * recording
+2021-06-21 13:56:31,094 - speechRecognitionMode.py[line:52] - INFO: * done recording
+2021-06-21 13:56:31,130 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 13:56:31,130 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 13:56:31,130 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 13:56:31,130 - mapRouteSettingMode.py[line:23] - INFO: 地图设置向模块底层发送数据
+2021-06-21 13:56:48,585 - speechRecognitionMode.py[line:95] - INFO: 没有唤醒！！
+
+2021-06-21 13:56:48,638 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 13:56:48,638 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 13:56:48,638 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 13:56:58,094 - speechRecognitionMode.py[line:83] - INFO: 唤醒成功！！
+
+2021-06-21 13:56:58,110 - speechRecognitionMode.py[line:35] - INFO: Input Device id 0
+2021-06-21 13:56:58,110 - speechRecognitionMode.py[line:35] - INFO: Input Device id 1
+2021-06-21 13:56:58,110 - speechRecognitionMode.py[line:35] - INFO: Input Device id 2
+2021-06-21 13:56:58,150 - speechRecognitionMode.py[line:44] - INFO: * recording
+2021-06-21 13:57:03,178 - speechRecognitionMode.py[line:52] - INFO: * done recording
+2021-06-21 13:57:03,278 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 13:57:03,278 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 13:57:03,278 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 14:03:23,546 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 14:03:23,546 - speechRecognitionMode.py[line:71] - INFO: 语音识别模块入口
+2021-06-21 14:03:23,546 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 14:03:23,546 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 14:03:23,546 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 14:03:23,546 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 14:03:38,451 - speechRecognitionMode.py[line:83] - INFO: 唤醒成功！！
+
+2021-06-21 14:03:38,484 - speechRecognitionMode.py[line:35] - INFO: Input Device id 0 - Microsoft Sound Mapper - Input
+2021-06-21 14:03:38,484 - speechRecognitionMode.py[line:35] - INFO: Input Device id 1 - ReSpeaker 4 Mic Array (UAC1.0) 
+2021-06-21 14:03:38,678 - speechRecognitionMode.py[line:44] - INFO: * recording
+2021-06-21 14:06:20,763 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 14:06:20,767 - speechRecognitionMode.py[line:71] - INFO: 语音识别模块入口
+2021-06-21 14:06:20,767 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 14:06:20,767 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 14:06:20,767 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 14:06:20,767 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 14:06:23,927 - speechRecognitionMode.py[line:83] - INFO: 唤醒成功！！
+
+2021-06-21 14:07:49,806 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 14:07:49,806 - speechRecognitionMode.py[line:71] - INFO: 语音识别模块入口
+2021-06-21 14:07:49,806 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 14:07:49,806 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 14:07:49,806 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 14:07:49,806 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 14:07:54,046 - speechRecognitionMode.py[line:83] - INFO: 唤醒成功！！
+
+2021-06-21 14:07:54,086 - speechRecognitionMode.py[line:35] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 14:07:54,086 - speechRecognitionMode.py[line:35] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 14:07:54,117 - speechRecognitionMode.py[line:35] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 14:07:54,149 - speechRecognitionMode.py[line:44] - INFO: * recording
+2021-06-21 14:07:59,130 - speechRecognitionMode.py[line:52] - INFO: * done recording
+2021-06-21 14:07:59,230 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 14:07:59,230 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 14:07:59,230 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 14:08:16,641 - speechRecognitionMode.py[line:95] - INFO: 没有唤醒！！
+
+2021-06-21 14:08:16,641 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 14:08:16,641 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 14:08:16,641 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 14:08:34,147 - speechRecognitionMode.py[line:95] - INFO: 没有唤醒！！
+
+2021-06-21 14:08:34,147 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 14:08:34,147 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 14:08:34,147 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 14:08:34,147 - mapRouteSettingMode.py[line:23] - INFO: 地图设置向模块底层发送数据
+2021-06-21 14:09:55,391 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 14:09:55,391 - speechRecognitionMode.py[line:71] - INFO: 语音识别模块入口
+2021-06-21 14:09:55,391 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 14:09:55,391 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 14:09:55,391 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 14:09:55,391 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 14:09:58,953 - speechRecognitionMode.py[line:83] - INFO: 唤醒成功！！
+
+2021-06-21 14:09:59,032 - speechRecognitionMode.py[line:44] - INFO: * recording
+2021-06-21 14:10:04,080 - speechRecognitionMode.py[line:52] - INFO: * done recording
+2021-06-21 14:10:04,180 - mapRouteSettingMode.py[line:23] - INFO: 地图设置向模块底层发送数据
+2021-06-21 14:10:04,180 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 14:10:35,447 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 14:10:35,447 - speechRecognitionMode.py[line:71] - INFO: 语音识别模块入口
+2021-06-21 14:10:35,447 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 14:10:35,447 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 14:10:35,447 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 14:10:35,462 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 14:10:38,216 - speechRecognitionMode.py[line:83] - INFO: 唤醒成功！！
+
+2021-06-21 14:10:38,240 - speechRecognitionMode.py[line:35] - INFO: Input Device id 0 - Microsoft Sound Mapper - Input
+2021-06-21 14:10:38,272 - speechRecognitionMode.py[line:35] - INFO: Input Device id 1 - ReSpeaker 4 Mic Array (UAC1.0) 
+2021-06-21 14:10:38,318 - speechRecognitionMode.py[line:44] - INFO: * recording
+2021-06-21 14:10:43,333 - speechRecognitionMode.py[line:52] - INFO: * done recording
+2021-06-21 14:10:43,452 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 14:10:43,452 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 14:10:43,468 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 14:13:00,970 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 14:13:00,986 - speechRecognitionMode.py[line:71] - INFO: 语音识别模块入口
+2021-06-21 14:13:00,986 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 14:13:00,986 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 14:13:00,986 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 14:13:00,986 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 14:13:04,189 - speechRecognitionMode.py[line:83] - INFO: 唤醒成功！！
+
+2021-06-21 14:13:04,242 - speechRecognitionMode.py[line:35] - INFO: Input Device id 0 - Microsoft Sound Mapper - Input
+2021-06-21 14:13:53,222 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 14:13:53,222 - speechRecognitionMode.py[line:71] - INFO: 语音识别模块入口
+2021-06-21 14:13:53,222 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 14:13:53,222 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 14:13:53,222 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 14:13:53,222 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 14:13:56,591 - speechRecognitionMode.py[line:83] - INFO: 唤醒成功！！
+
+2021-06-21 14:13:56,607 - speechRecognitionMode.py[line:35] - INFO: Input Device id 0 - Microsoft Sound Mapper - Input
+2021-06-21 14:13:56,607 - speechRecognitionMode.py[line:35] - INFO: Input Device id 1 - ReSpeaker 4 Mic Array (UAC1.0) 
+2021-06-21 14:13:56,738 - speechRecognitionMode.py[line:44] - INFO: * recording
+2021-06-21 14:14:01,749 - speechRecognitionMode.py[line:52] - INFO: * done recording
+2021-06-21 14:14:01,865 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 14:14:01,865 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 14:14:01,865 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 14:15:15,682 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 14:15:15,682 - speechRecognitionMode.py[line:71] - INFO: 语音识别模块入口
+2021-06-21 14:15:15,682 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 14:15:15,682 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 14:15:15,682 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 14:15:15,682 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 14:15:18,851 - speechRecognitionMode.py[line:83] - INFO: 唤醒成功！！
+
+2021-06-21 14:15:18,883 - speechRecognitionMode.py[line:35] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 14:15:18,898 - speechRecognitionMode.py[line:35] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 14:15:18,952 - speechRecognitionMode.py[line:35] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 14:15:18,983 - speechRecognitionMode.py[line:44] - INFO: * recording
+2021-06-21 14:15:23,979 - speechRecognitionMode.py[line:52] - INFO: * done recording
+2021-06-21 14:15:24,032 - mapRouteSettingMode.py[line:23] - INFO: 地图设置向模块底层发送数据
+2021-06-21 14:15:24,032 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 14:15:24,032 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 14:15:24,032 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 14:36:30,030 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 14:36:30,030 - speechRecognitionMode.py[line:71] - INFO: 语音识别模块入口
+2021-06-21 14:36:30,030 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 14:36:30,030 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 14:36:30,030 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 14:36:30,030 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 14:36:35,211 - speechRecognitionMode.py[line:83] - INFO: 唤醒成功！！
+
+2021-06-21 14:36:35,227 - speechRecognitionMode.py[line:35] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 14:36:35,227 - speechRecognitionMode.py[line:35] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 14:36:35,274 - speechRecognitionMode.py[line:35] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 14:39:22,975 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 14:39:22,978 - speechRecognitionMode.py[line:71] - INFO: 语音识别模块入口
+2021-06-21 14:39:22,986 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 14:39:22,987 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 14:39:22,988 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 14:39:22,989 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 14:39:25,756 - speechRecognitionMode.py[line:83] - INFO: 唤醒成功！！
+
+2021-06-21 14:39:25,779 - speechRecognitionMode.py[line:35] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 14:39:25,797 - speechRecognitionMode.py[line:35] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 14:39:25,846 - speechRecognitionMode.py[line:35] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 14:39:25,862 - speechRecognitionMode.py[line:44] - INFO: * recording
+2021-06-21 14:46:21,934 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 14:46:21,934 - speechRecognitionMode.py[line:76] - INFO: 语音识别模块入口
+2021-06-21 14:46:21,934 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 14:46:21,934 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 14:46:21,934 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 14:46:21,934 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 14:46:25,373 - speechRecognitionMode.py[line:88] - INFO: 唤醒成功！！
+
+2021-06-21 14:46:25,420 - speechRecognitionMode.py[line:38] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 14:46:25,420 - speechRecognitionMode.py[line:38] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 14:46:25,420 - speechRecognitionMode.py[line:38] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 14:47:44,657 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 14:47:44,657 - speechRecognitionMode.py[line:73] - INFO: 语音识别模块入口
+2021-06-21 14:47:44,657 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 14:47:44,657 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 14:47:44,657 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 14:47:44,657 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 14:47:47,142 - speechRecognitionMode.py[line:85] - INFO: 唤醒成功！！
+
+2021-06-21 14:47:47,158 - speechRecognitionMode.py[line:37] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 14:47:47,174 - speechRecognitionMode.py[line:37] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 14:47:47,189 - speechRecognitionMode.py[line:37] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 14:47:47,237 - speechRecognitionMode.py[line:46] - INFO: * recording
+2021-06-21 14:47:52,232 - speechRecognitionMode.py[line:54] - INFO: * done recording
+2021-06-21 14:47:52,302 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 14:47:52,302 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 14:47:52,302 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 14:58:42,112 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 14:58:42,112 - speechRecognitionMode.py[line:75] - INFO: 语音识别模块入口
+2021-06-21 14:58:42,112 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 14:58:42,112 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 14:58:42,112 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 14:58:42,112 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 14:58:45,549 - speechRecognitionMode.py[line:87] - INFO: 唤醒成功！！
+
+2021-06-21 14:59:14,917 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 14:59:14,917 - speechRecognitionMode.py[line:75] - INFO: 语音识别模块入口
+2021-06-21 14:59:14,917 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 14:59:14,917 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 14:59:14,917 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 14:59:14,917 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 14:59:17,511 - speechRecognitionMode.py[line:87] - INFO: 唤醒成功！！
+
+2021-06-21 14:59:19,673 - speechRecognitionMode.py[line:38] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 14:59:19,679 - speechRecognitionMode.py[line:38] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 14:59:19,685 - speechRecognitionMode.py[line:38] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 14:59:19,697 - speechRecognitionMode.py[line:47] - INFO: * recording
+2021-06-21 14:59:24,687 - speechRecognitionMode.py[line:55] - INFO: * done recording
+2021-06-21 14:59:24,737 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 14:59:24,737 - mapRouteSettingMode.py[line:23] - INFO: 地图设置向模块底层发送数据
+2021-06-21 14:59:24,738 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 14:59:24,738 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 15:15:31,791 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 15:15:31,791 - speechRecognitionMode.py[line:82] - INFO: 语音识别模块入口
+2021-06-21 15:15:31,791 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 15:15:31,791 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 15:15:31,791 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 15:15:31,791 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 15:15:40,067 - speechRecognitionMode.py[line:94] - INFO: 唤醒成功！！
+
+2021-06-21 15:16:00,955 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 15:16:00,955 - speechRecognitionMode.py[line:82] - INFO: 语音识别模块入口
+2021-06-21 15:16:00,955 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 15:16:00,957 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 15:16:00,957 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 15:16:00,957 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 15:16:03,389 - speechRecognitionMode.py[line:94] - INFO: 唤醒成功！！
+
+2021-06-21 15:16:25,833 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 15:16:25,835 - speechRecognitionMode.py[line:83] - INFO: 语音识别模块入口
+2021-06-21 15:16:25,837 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 15:16:25,837 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 15:16:25,837 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 15:16:25,837 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 15:16:28,331 - speechRecognitionMode.py[line:95] - INFO: 唤醒成功！！
+
+2021-06-21 15:17:38,945 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 15:17:38,960 - speechRecognitionMode.py[line:83] - INFO: 语音识别模块入口
+2021-06-21 15:17:38,960 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 15:17:38,960 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 15:17:38,960 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 15:17:38,960 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 15:17:40,987 - speechRecognitionMode.py[line:95] - INFO: 唤醒成功！！
+
+2021-06-21 15:17:42,344 - speechRecognitionMode.py[line:38] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 15:17:42,351 - speechRecognitionMode.py[line:46] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 15:17:42,357 - speechRecognitionMode.py[line:46] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 15:17:42,358 - speechRecognitionMode.py[line:46] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 15:17:42,365 - speechRecognitionMode.py[line:55] - INFO: * recording
+2021-06-21 15:17:47,361 - speechRecognitionMode.py[line:63] - INFO: * done recording
+2021-06-21 15:17:47,390 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 15:17:47,390 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 15:17:47,392 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 15:17:50,493 - speechRecognitionMode.py[line:95] - INFO: 唤醒成功！！
+
+2021-06-21 15:17:52,443 - speechRecognitionMode.py[line:38] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 15:17:52,449 - speechRecognitionMode.py[line:46] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 15:17:52,450 - speechRecognitionMode.py[line:46] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 15:17:52,451 - speechRecognitionMode.py[line:46] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 15:17:52,475 - speechRecognitionMode.py[line:55] - INFO: * recording
+2021-06-21 15:17:57,480 - speechRecognitionMode.py[line:63] - INFO: * done recording
+2021-06-21 15:17:57,509 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 15:17:57,509 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 15:17:57,509 - mapRouteSettingMode.py[line:23] - INFO: 地图设置向模块底层发送数据
+2021-06-21 15:17:57,516 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 15:18:00,044 - speechRecognitionMode.py[line:95] - INFO: 唤醒成功！！
+
+2021-06-21 15:18:01,053 - speechRecognitionMode.py[line:38] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 15:18:01,064 - speechRecognitionMode.py[line:46] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 15:18:01,066 - speechRecognitionMode.py[line:46] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 15:18:01,068 - speechRecognitionMode.py[line:46] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 15:18:01,091 - speechRecognitionMode.py[line:55] - INFO: * recording
+2021-06-21 15:18:06,084 - speechRecognitionMode.py[line:63] - INFO: * done recording
+2021-06-21 15:18:06,103 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 15:18:06,114 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 15:18:06,116 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 15:18:09,069 - speechRecognitionMode.py[line:95] - INFO: 唤醒成功！！
+
+2021-06-21 15:18:11,087 - speechRecognitionMode.py[line:38] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 15:18:11,093 - speechRecognitionMode.py[line:46] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 15:18:11,093 - speechRecognitionMode.py[line:46] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 15:18:11,093 - speechRecognitionMode.py[line:46] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 15:18:11,105 - speechRecognitionMode.py[line:55] - INFO: * recording
+2021-06-21 15:18:16,099 - speechRecognitionMode.py[line:63] - INFO: * done recording
+2021-06-21 15:18:16,138 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 15:18:16,141 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 15:18:16,141 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 15:18:18,878 - speechRecognitionMode.py[line:95] - INFO: 唤醒成功！！
+
+2021-06-21 15:18:20,310 - speechRecognitionMode.py[line:38] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 15:18:20,323 - speechRecognitionMode.py[line:46] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 15:18:20,323 - speechRecognitionMode.py[line:46] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 15:18:20,324 - speechRecognitionMode.py[line:46] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 15:18:20,349 - speechRecognitionMode.py[line:55] - INFO: * recording
+2021-06-21 15:22:48,245 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 15:22:48,245 - speechRecognitionMode.py[line:83] - INFO: 语音识别模块入口
+2021-06-21 15:22:48,247 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 15:22:48,248 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 15:22:48,248 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 15:22:48,248 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 15:22:54,749 - speechRecognitionMode.py[line:95] - INFO: 唤醒成功！！
+
+2021-06-21 15:22:57,836 - speechRecognitionMode.py[line:38] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 15:22:57,854 - speechRecognitionMode.py[line:46] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 15:22:57,854 - speechRecognitionMode.py[line:46] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 15:22:57,878 - speechRecognitionMode.py[line:46] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 15:22:57,918 - speechRecognitionMode.py[line:55] - INFO: * recording
+2021-06-21 15:23:02,912 - speechRecognitionMode.py[line:63] - INFO: * done recording
+2021-06-21 15:23:02,949 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 15:23:02,949 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 15:23:02,949 - mapRouteSettingMode.py[line:23] - INFO: 地图设置向模块底层发送数据
+2021-06-21 15:23:02,952 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 15:23:06,510 - speechRecognitionMode.py[line:95] - INFO: 唤醒成功！！
+
+2021-06-21 15:23:08,466 - speechRecognitionMode.py[line:38] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 15:23:08,483 - speechRecognitionMode.py[line:46] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 15:23:08,483 - speechRecognitionMode.py[line:46] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 15:23:08,483 - speechRecognitionMode.py[line:46] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 15:23:08,516 - speechRecognitionMode.py[line:55] - INFO: * recording
+2021-06-21 15:23:13,510 - speechRecognitionMode.py[line:63] - INFO: * done recording
+2021-06-21 15:23:13,539 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 15:23:13,539 - mapRouteSettingMode.py[line:23] - INFO: 地图设置向模块底层发送数据
+2021-06-21 15:23:13,551 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 15:23:13,551 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 15:23:17,300 - speechRecognitionMode.py[line:95] - INFO: 唤醒成功！！
+
+2021-06-21 15:23:19,274 - speechRecognitionMode.py[line:38] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 15:23:19,291 - speechRecognitionMode.py[line:46] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 15:23:19,291 - speechRecognitionMode.py[line:46] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 15:23:19,293 - speechRecognitionMode.py[line:46] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 15:23:19,310 - speechRecognitionMode.py[line:55] - INFO: * recording
+2021-06-21 15:23:24,313 - speechRecognitionMode.py[line:63] - INFO: * done recording
+2021-06-21 15:23:24,338 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 15:23:24,338 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 15:23:24,340 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 15:23:27,283 - speechRecognitionMode.py[line:95] - INFO: 唤醒成功！！
+
+2021-06-21 15:23:28,698 - speechRecognitionMode.py[line:38] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 15:23:28,715 - speechRecognitionMode.py[line:46] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 15:23:28,715 - speechRecognitionMode.py[line:46] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 15:23:28,715 - speechRecognitionMode.py[line:46] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 15:23:28,732 - speechRecognitionMode.py[line:55] - INFO: * recording
+2021-06-21 15:23:33,732 - speechRecognitionMode.py[line:63] - INFO: * done recording
+2021-06-21 15:23:33,760 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 15:23:33,760 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 15:23:33,762 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 15:31:00,820 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 15:31:00,821 - speechRecognitionMode.py[line:86] - INFO: 语音识别模块入口
+2021-06-21 15:31:00,822 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 15:31:00,824 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 15:31:00,826 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 15:31:00,828 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 15:31:04,625 - speechRecognitionMode.py[line:98] - INFO: 唤醒成功！！
+
+2021-06-21 15:31:37,550 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 15:31:37,551 - speechRecognitionMode.py[line:86] - INFO: 语音识别模块入口
+2021-06-21 15:31:37,553 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 15:31:37,554 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 15:31:37,554 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 15:31:37,554 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 15:31:40,238 - speechRecognitionMode.py[line:98] - INFO: 唤醒成功！！
+
+2021-06-21 15:35:18,564 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 15:35:18,564 - speechRecognitionMode.py[line:90] - INFO: 语音识别模块入口
+2021-06-21 15:35:18,580 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 15:35:18,580 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 15:35:18,580 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 15:35:18,580 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 15:35:21,659 - speechRecognitionMode.py[line:102] - INFO: 唤醒成功！！
+
+2021-06-21 15:35:21,659 - speechRecognitionMode.py[line:36] - INFO: 没有唤醒应答文件唤醒！！答复失败！！
+
+2021-06-21 15:35:21,675 - speechRecognitionMode.py[line:53] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 15:35:21,675 - speechRecognitionMode.py[line:53] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 15:35:21,755 - speechRecognitionMode.py[line:53] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 15:35:21,787 - speechRecognitionMode.py[line:62] - INFO: * recording
+2021-06-21 15:35:26,785 - speechRecognitionMode.py[line:70] - INFO: * done recording
+2021-06-21 15:35:26,958 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 15:35:26,960 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 15:35:26,960 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 15:35:43,969 - speechRecognitionMode.py[line:116] - INFO: 没有唤醒！！
+
+2021-06-21 15:35:43,969 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 15:35:43,970 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 15:35:43,974 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 15:35:48,948 - speechRecognitionMode.py[line:102] - INFO: 唤醒成功！！
+
+2021-06-21 15:35:48,948 - speechRecognitionMode.py[line:39] - INFO: 唤醒词音频为wakeUpResponse_woxiangxiabanqingbuyaojiaowoo.mp3
+2021-06-21 15:35:49,315 - speechRecognitionMode.py[line:44] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 15:35:49,326 - speechRecognitionMode.py[line:53] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 15:35:49,331 - speechRecognitionMode.py[line:53] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 15:35:49,332 - speechRecognitionMode.py[line:53] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 15:35:49,352 - speechRecognitionMode.py[line:62] - INFO: * recording
+2021-06-21 15:35:54,353 - speechRecognitionMode.py[line:70] - INFO: * done recording
+2021-06-21 15:35:54,396 - mapRouteSettingMode.py[line:23] - INFO: 地图设置向模块底层发送数据
+2021-06-21 15:35:54,396 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 15:35:54,398 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 15:35:54,399 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 15:50:59,102 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 15:50:59,103 - speechRecognitionMode.py[line:94] - INFO: 语音识别模块入口
+2021-06-21 15:50:59,103 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 15:50:59,105 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 15:50:59,105 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 15:50:59,105 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 15:51:02,196 - speechRecognitionMode.py[line:106] - INFO: 唤醒成功！！
+
+2021-06-21 15:51:02,227 - speechRecognitionMode.py[line:43] - INFO: 唤醒词音频为wakeUpResponse_jiaowogansha.mp3
+2021-06-21 15:51:02,611 - speechRecognitionMode.py[line:48] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 15:51:02,617 - speechRecognitionMode.py[line:57] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 15:51:02,620 - speechRecognitionMode.py[line:57] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 15:51:02,656 - speechRecognitionMode.py[line:57] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 15:51:02,681 - speechRecognitionMode.py[line:66] - INFO: * recording
+2021-06-21 15:51:07,671 - speechRecognitionMode.py[line:74] - INFO: * done recording
+2021-06-21 15:53:33,197 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 15:53:33,197 - speechRecognitionMode.py[line:94] - INFO: 语音识别模块入口
+2021-06-21 15:53:33,197 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 15:53:33,197 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 15:53:33,197 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 15:53:33,197 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 15:53:36,930 - speechRecognitionMode.py[line:106] - INFO: 唤醒成功！！
+
+2021-06-21 15:53:36,946 - speechRecognitionMode.py[line:43] - INFO: 唤醒词音频为wakeUpResponse_woxianzaibuxiangshuohua.mp3
+2021-06-21 15:53:37,344 - speechRecognitionMode.py[line:48] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 15:53:37,356 - speechRecognitionMode.py[line:57] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 15:53:37,358 - speechRecognitionMode.py[line:57] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 15:53:37,374 - speechRecognitionMode.py[line:57] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 15:53:37,379 - speechRecognitionMode.py[line:66] - INFO: * recording
+2021-06-21 15:53:42,376 - speechRecognitionMode.py[line:74] - INFO: * done recording
+2021-06-21 15:53:43,945 - speechRecognitionMode.py[line:114] - INFO: mojaAsr:炸炸眼睛。
+2021-06-21 15:56:18,099 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 15:56:18,100 - speechRecognitionMode.py[line:94] - INFO: 语音识别模块入口
+2021-06-21 15:56:18,102 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 15:56:18,102 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 15:56:18,102 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 15:56:18,102 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 15:56:23,119 - speechRecognitionMode.py[line:106] - INFO: 唤醒成功！！
+
+2021-06-21 15:56:23,122 - speechRecognitionMode.py[line:43] - INFO: 唤醒词音频为wakeUpResponse_woxiangxiabanqingbuyaojiaowoo.mp3
+2021-06-21 15:56:23,508 - speechRecognitionMode.py[line:48] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 15:56:23,514 - speechRecognitionMode.py[line:57] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 15:56:23,514 - speechRecognitionMode.py[line:57] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 15:56:23,532 - speechRecognitionMode.py[line:57] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 15:56:23,539 - speechRecognitionMode.py[line:66] - INFO: * recording
+2021-06-21 15:56:28,539 - speechRecognitionMode.py[line:74] - INFO: * done recording
+2021-06-21 15:56:29,767 - speechRecognitionMode.py[line:114] - INFO: mojaAsr:跳个舞。
+2021-06-21 15:57:15,883 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 15:57:15,883 - speechRecognitionMode.py[line:94] - INFO: 语音识别模块入口
+2021-06-21 15:57:15,888 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 15:57:15,890 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 15:57:15,892 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 15:57:15,895 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 15:57:19,874 - speechRecognitionMode.py[line:106] - INFO: 唤醒成功！！
+
+2021-06-21 15:57:19,890 - speechRecognitionMode.py[line:43] - INFO: 唤醒词音频为wakeUpResponse_jiaowogansha.mp3
+2021-06-21 15:57:20,303 - speechRecognitionMode.py[line:48] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 15:57:20,308 - speechRecognitionMode.py[line:57] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 15:57:20,308 - speechRecognitionMode.py[line:57] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 15:57:20,320 - speechRecognitionMode.py[line:57] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 15:57:20,348 - speechRecognitionMode.py[line:66] - INFO: * recording
+2021-06-21 15:57:25,354 - speechRecognitionMode.py[line:74] - INFO: * done recording
+2021-06-21 15:57:26,707 - speechRecognitionMode.py[line:114] - INFO: mojaAsr:移动到a点。
+2021-06-21 16:04:57,755 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 16:04:57,761 - speechRecognitionMode.py[line:94] - INFO: 语音识别模块入口
+2021-06-21 16:04:57,767 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 16:04:57,768 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 16:04:57,769 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 16:04:57,769 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 16:05:00,218 - speechRecognitionMode.py[line:106] - INFO: 唤醒成功！！
+
+2021-06-21 16:05:00,218 - speechRecognitionMode.py[line:43] - INFO: 唤醒词音频为wakeUpResponse_woxianzaibuxiangshuohua.mp3
+2021-06-21 16:05:00,581 - speechRecognitionMode.py[line:48] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 16:05:00,604 - speechRecognitionMode.py[line:57] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 16:05:00,604 - speechRecognitionMode.py[line:57] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 16:05:00,619 - speechRecognitionMode.py[line:57] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 16:05:00,638 - speechRecognitionMode.py[line:66] - INFO: * recording
+2021-06-21 16:05:05,638 - speechRecognitionMode.py[line:74] - INFO: * done recording
+2021-06-21 16:05:06,769 - speechRecognitionMode.py[line:114] - INFO: mojaAsr:跳个舞。
+2021-06-21 16:21:40,212 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 16:21:40,214 - speechRecognitionMode.py[line:94] - INFO: 语音识别模块入口
+2021-06-21 16:21:40,218 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 16:21:40,218 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 16:21:40,219 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 16:21:40,219 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 16:21:43,036 - speechRecognitionMode.py[line:106] - INFO: 唤醒成功！！
+
+2021-06-21 16:21:43,056 - speechRecognitionMode.py[line:43] - INFO: 唤醒词音频为wakeUpResponse_wonengbangniganshaa.mp3
+2021-06-21 16:21:43,451 - speechRecognitionMode.py[line:48] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 16:21:43,481 - speechRecognitionMode.py[line:57] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 16:21:43,492 - speechRecognitionMode.py[line:57] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 16:21:43,529 - speechRecognitionMode.py[line:57] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 16:21:43,535 - speechRecognitionMode.py[line:66] - INFO: * recording
+2021-06-21 16:21:48,543 - speechRecognitionMode.py[line:74] - INFO: * done recording
+2021-06-21 16:21:50,029 - speechRecognitionMode.py[line:114] - INFO: mojaAsr:跳个舞。
+2021-06-21 16:22:15,093 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 16:22:15,093 - speechRecognitionMode.py[line:94] - INFO: 语音识别模块入口
+2021-06-21 16:22:15,094 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 16:22:15,096 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 16:22:15,096 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 16:22:15,096 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 16:22:20,930 - speechRecognitionMode.py[line:106] - INFO: 唤醒成功！！
+
+2021-06-21 16:22:20,934 - speechRecognitionMode.py[line:43] - INFO: 唤醒词音频为wakeUpResponse_jiaowogansha.mp3
+2021-06-21 16:22:21,315 - speechRecognitionMode.py[line:48] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 16:22:21,327 - speechRecognitionMode.py[line:57] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 16:22:21,327 - speechRecognitionMode.py[line:57] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 16:22:21,354 - speechRecognitionMode.py[line:57] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 16:22:21,360 - speechRecognitionMode.py[line:66] - INFO: * recording
+2021-06-21 16:22:26,366 - speechRecognitionMode.py[line:74] - INFO: * done recording
+2021-06-21 16:22:27,466 - speechRecognitionMode.py[line:114] - INFO: mojaAsr:跳个舞。
+2021-06-21 16:22:28,144 - speechRecognitionMode.py[line:118] - INFO: answer:[{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9996871948242188, 'label': '1'}, 'raw_query': '跳个舞。', 'lexical_analysis': [{'etypes': [], 'basic_word': ['跳'], 'weight': 0.44039854407310486, 'term': '跳', 'type': '34'}, {'etypes': [], 'basic_word': ['个'], 'weight': 0.05960145965218544, 'term': '个', 'type': '29'}, {'etypes': [], 'basic_word': ['舞'], 'weight': 0.44039854407310486, 'term': '舞', 'type': '21'}, {'etypes': [], 'basic_word': ['。'], 'weight': 0.05960145965218544, 'term': '。', 'type': '37'}], 'timestamp': 0, 'status': 0}}]
+2021-06-21 16:22:28,431 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 16:22:28,431 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 16:22:28,434 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 16:31:35,743 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 16:31:35,744 - speechRecognitionMode.py[line:94] - INFO: 语音识别模块入口
+2021-06-21 16:31:35,748 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 16:31:35,748 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 16:31:35,749 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 16:31:35,749 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 16:31:37,975 - speechRecognitionMode.py[line:106] - INFO: 唤醒成功！！
+
+2021-06-21 16:31:37,991 - speechRecognitionMode.py[line:43] - INFO: 唤醒词音频为wakeUpResponse_shuobayoushenmwokeyibangni.mp3
+2021-06-21 16:31:38,423 - speechRecognitionMode.py[line:48] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 16:31:38,441 - speechRecognitionMode.py[line:57] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 16:31:38,443 - speechRecognitionMode.py[line:57] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 16:31:38,474 - speechRecognitionMode.py[line:57] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 16:31:38,485 - speechRecognitionMode.py[line:66] - INFO: * recording
+2021-06-21 16:31:43,476 - speechRecognitionMode.py[line:74] - INFO: * done recording
+2021-06-21 16:31:44,996 - speechRecognitionMode.py[line:114] - INFO: mojaAsr:跳个舞吧！
+2021-06-21 16:33:23,362 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 16:33:23,363 - speechRecognitionMode.py[line:94] - INFO: 语音识别模块入口
+2021-06-21 16:33:23,363 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 16:33:23,373 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 16:33:23,376 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 16:33:23,379 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 16:33:25,665 - speechRecognitionMode.py[line:106] - INFO: 唤醒成功！！
+
+2021-06-21 16:33:25,680 - speechRecognitionMode.py[line:43] - INFO: 唤醒词音频为wakeUpResponse_wozaine.mp3
+2021-06-21 16:33:26,053 - speechRecognitionMode.py[line:48] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 16:33:26,064 - speechRecognitionMode.py[line:57] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 16:33:26,076 - speechRecognitionMode.py[line:57] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 16:33:26,085 - speechRecognitionMode.py[line:57] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 16:33:26,095 - speechRecognitionMode.py[line:66] - INFO: * recording
+2021-06-21 16:33:31,095 - speechRecognitionMode.py[line:74] - INFO: * done recording
+2021-06-21 16:33:32,449 - speechRecognitionMode.py[line:114] - INFO: mojaAsr:跳个舞吧！
+2021-06-21 16:34:35,128 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 16:34:35,129 - speechRecognitionMode.py[line:94] - INFO: 语音识别模块入口
+2021-06-21 16:34:35,129 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 16:34:35,131 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 16:34:35,131 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 16:34:35,131 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 16:34:37,606 - speechRecognitionMode.py[line:106] - INFO: 唤醒成功！！
+
+2021-06-21 16:34:37,652 - speechRecognitionMode.py[line:43] - INFO: 唤醒词音频为wakeUpResponse_woxiangxiabanqingbuyaojiaowoo.mp3
+2021-06-21 16:34:38,043 - speechRecognitionMode.py[line:48] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 16:34:38,055 - speechRecognitionMode.py[line:57] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 16:34:38,055 - speechRecognitionMode.py[line:57] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 16:34:38,088 - speechRecognitionMode.py[line:57] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 16:34:38,117 - speechRecognitionMode.py[line:66] - INFO: * recording
+2021-06-21 16:34:43,117 - speechRecognitionMode.py[line:74] - INFO: * done recording
+2021-06-21 16:34:44,809 - speechRecognitionMode.py[line:114] - INFO: mojaAsr:跳个舞。
+2021-06-21 16:34:45,589 - speechRecognitionMode.py[line:118] - INFO: answer:[{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9996871948242188, 'label': '1'}, 'raw_query': '跳个舞。', 'lexical_analysis': [{'etypes': [], 'basic_word': ['跳'], 'weight': 0.44039854407310486, 'term': '跳', 'type': '34'}, {'etypes': [], 'basic_word': ['个'], 'weight': 0.05960145965218544, 'term': '个', 'type': '29'}, {'etypes': [], 'basic_word': ['舞'], 'weight': 0.44039854407310486, 'term': '舞', 'type': '21'}, {'etypes': [], 'basic_word': ['。'], 'weight': 0.05960145965218544, 'term': '。', 'type': '37'}], 'timestamp': 0, 'status': 0}}]
+2021-06-21 16:34:45,911 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 16:34:45,913 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 16:34:45,913 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 16:38:05,889 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 16:38:05,889 - speechRecognitionMode.py[line:94] - INFO: 语音识别模块入口
+2021-06-21 16:38:05,904 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 16:38:05,904 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 16:38:05,904 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 16:38:05,904 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 16:38:12,325 - speechRecognitionMode.py[line:106] - INFO: 唤醒成功！！
+
+2021-06-21 16:38:12,341 - speechRecognitionMode.py[line:43] - INFO: 唤醒词音频为wakeUpResponse_jiaowogansha.mp3
+2021-06-21 16:38:14,057 - speechRecognitionMode.py[line:48] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 16:38:14,070 - speechRecognitionMode.py[line:57] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 16:38:14,070 - speechRecognitionMode.py[line:57] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 16:38:14,088 - speechRecognitionMode.py[line:57] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 16:38:14,094 - speechRecognitionMode.py[line:66] - INFO: * recording
+2021-06-21 16:38:19,094 - speechRecognitionMode.py[line:74] - INFO: * done recording
+2021-06-21 16:38:20,471 - speechRecognitionMode.py[line:114] - INFO: mojaAsr:跳个舞。
+2021-06-21 16:38:21,126 - speechRecognitionMode.py[line:118] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9996871948242188, 'label': '1'}, 'raw_query': '跳个舞。', 'lexical_analysis': [{'etypes': [], 'basic_word': ['跳'], 'weight': 0.44039854407310486, 'term': '跳', 'type': '34'}, {'etypes': [], 'basic_word': ['个'], 'weight': 0.05960145965218544, 'term': '个', 'type': '29'}, {'etypes': [], 'basic_word': ['舞'], 'weight': 0.44039854407310486, 'term': '舞', 'type': '21'}, {'etypes': [], 'basic_word': ['。'], 'weight': 0.05960145965218544, 'term': '。', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 16:38:21,394 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 16:38:21,405 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 16:38:21,406 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 16:42:32,324 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 16:42:32,324 - speechRecognitionMode.py[line:94] - INFO: 语音识别模块入口
+2021-06-21 16:42:32,324 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 16:42:32,340 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 16:42:32,340 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 16:42:32,340 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 16:42:36,147 - speechRecognitionMode.py[line:106] - INFO: 唤醒成功！！
+
+2021-06-21 16:42:36,162 - speechRecognitionMode.py[line:43] - INFO: 唤醒词音频为wakeUpResponse_woxiangxiabanqingbuyaojiaowoo.mp3
+2021-06-21 16:42:39,298 - speechRecognitionMode.py[line:48] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 16:42:39,310 - speechRecognitionMode.py[line:57] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 16:42:39,310 - speechRecognitionMode.py[line:57] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 16:42:39,362 - speechRecognitionMode.py[line:57] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 16:42:39,374 - speechRecognitionMode.py[line:66] - INFO: * recording
+2021-06-21 16:42:44,367 - speechRecognitionMode.py[line:74] - INFO: * done recording
+2021-06-21 16:42:45,431 - speechRecognitionMode.py[line:114] - INFO: mojaAsr:跳个舞吧！
+2021-06-21 16:42:46,132 - speechRecognitionMode.py[line:118] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9998788833618164, 'label': '1'}, 'raw_query': '跳个舞吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['跳'], 'weight': 0.2872353792190552, 'term': '跳', 'type': '34'}, {'etypes': [], 'basic_word': ['个'], 'weight': 0.16002650558948517, 'term': '个', 'type': '29'}, {'etypes': [], 'basic_word': ['舞'], 'weight': 0.43499717116355896, 'term': '舞', 'type': '34'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.05887046456336975, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.05887046456336975, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 16:44:21,871 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 16:44:21,871 - speechRecognitionMode.py[line:94] - INFO: 语音识别模块入口
+2021-06-21 16:44:21,871 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 16:44:21,871 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 16:44:21,871 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 16:44:21,871 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 16:44:24,629 - speechRecognitionMode.py[line:106] - INFO: 唤醒成功！！
+
+2021-06-21 16:44:24,645 - speechRecognitionMode.py[line:43] - INFO: 唤醒词音频为wakeUpResponse_jiaowogansha.mp3
+2021-06-21 16:44:26,430 - speechRecognitionMode.py[line:48] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 16:44:26,447 - speechRecognitionMode.py[line:57] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 16:44:26,447 - speechRecognitionMode.py[line:57] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 16:44:26,484 - speechRecognitionMode.py[line:57] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 16:44:26,496 - speechRecognitionMode.py[line:66] - INFO: * recording
+2021-06-21 16:44:31,486 - speechRecognitionMode.py[line:74] - INFO: * done recording
+2021-06-21 16:44:33,028 - speechRecognitionMode.py[line:114] - INFO: mojaAsr:渣渣眼睛。
+2021-06-21 16:44:33,631 - speechRecognitionMode.py[line:118] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9016534686088562, 'label': '1'}, 'raw_query': '渣渣眼睛。', 'lexical_analysis': [{'etypes': [], 'basic_word': ['渣渣'], 'weight': 0.46831053495407104, 'term': '渣渣', 'type': '21'}, {'etypes': [], 'basic_word': ['眼睛'], 'weight': 0.46831053495407104, 'term': '眼睛', 'type': '21'}, {'etypes': [], 'basic_word': ['。'], 'weight': 0.06337893754243851, 'term': '。', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 16:45:18,189 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 16:45:18,204 - speechRecognitionMode.py[line:94] - INFO: 语音识别模块入口
+2021-06-21 16:45:18,221 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 16:45:18,221 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 16:45:18,222 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 16:45:18,222 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 16:45:21,610 - speechRecognitionMode.py[line:106] - INFO: 唤醒成功！！
+
+2021-06-21 16:45:21,626 - speechRecognitionMode.py[line:43] - INFO: 唤醒词音频为wakeUpResponse_jiaowogansha.mp3
+2021-06-21 16:45:23,362 - speechRecognitionMode.py[line:48] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 16:45:23,382 - speechRecognitionMode.py[line:57] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 16:45:23,382 - speechRecognitionMode.py[line:57] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 16:45:23,400 - speechRecognitionMode.py[line:57] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 16:45:23,420 - speechRecognitionMode.py[line:66] - INFO: * recording
+2021-06-21 16:45:28,421 - speechRecognitionMode.py[line:74] - INFO: * done recording
+2021-06-21 16:45:29,389 - speechRecognitionMode.py[line:114] - INFO: mojaAsr:跳个舞吧！
+2021-06-21 16:45:30,437 - speechRecognitionMode.py[line:118] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9998788833618164, 'label': '1'}, 'raw_query': '跳个舞吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['跳'], 'weight': 0.2872353792190552, 'term': '跳', 'type': '34'}, {'etypes': [], 'basic_word': ['个'], 'weight': 0.16002650558948517, 'term': '个', 'type': '29'}, {'etypes': [], 'basic_word': ['舞'], 'weight': 0.43499717116355896, 'term': '舞', 'type': '34'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.05887046456336975, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.05887046456336975, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 16:45:30,443 - speechRecognitionMode.py[line:121] - INFO: intent: 
+slots: []
+2021-06-21 16:45:30,669 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 16:45:30,669 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 16:45:30,669 - mapRouteSettingMode.py[line:23] - INFO: 地图设置向模块底层发送数据
+2021-06-21 16:45:30,671 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 16:47:36,514 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 16:47:36,515 - speechRecognitionMode.py[line:94] - INFO: 语音识别模块入口
+2021-06-21 16:47:36,516 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 16:47:36,516 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 16:47:36,516 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 16:47:36,517 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 16:47:39,162 - speechRecognitionMode.py[line:106] - INFO: 唤醒成功！！
+
+2021-06-21 16:47:39,239 - speechRecognitionMode.py[line:43] - INFO: 唤醒词音频为wakeUpResponse_shuobayoushenmwokeyibangni.mp3
+2021-06-21 16:47:42,590 - speechRecognitionMode.py[line:48] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 16:47:42,605 - speechRecognitionMode.py[line:57] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 16:47:42,605 - speechRecognitionMode.py[line:57] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 16:47:42,626 - speechRecognitionMode.py[line:57] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 16:47:42,637 - speechRecognitionMode.py[line:66] - INFO: * recording
+2021-06-21 16:47:47,645 - speechRecognitionMode.py[line:74] - INFO: * done recording
+2021-06-21 16:47:48,945 - speechRecognitionMode.py[line:114] - INFO: mojaAsr:跳个舞吧！
+2021-06-21 16:47:49,551 - speechRecognitionMode.py[line:118] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9998788833618164, 'label': '1'}, 'raw_query': '跳个舞吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['跳'], 'weight': 0.2872353792190552, 'term': '跳', 'type': '34'}, {'etypes': [], 'basic_word': ['个'], 'weight': 0.16002650558948517, 'term': '个', 'type': '29'}, {'etypes': [], 'basic_word': ['舞'], 'weight': 0.43499717116355896, 'term': '舞', 'type': '34'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.05887046456336975, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.05887046456336975, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 16:47:49,552 - speechRecognitionMode.py[line:121] - INFO: intent: 
+slots: []
+2021-06-21 16:47:49,933 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 16:47:49,933 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 16:47:49,936 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 16:52:56,033 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 16:52:56,034 - speechRecognitionMode.py[line:99] - INFO: 语音识别模块入口
+2021-06-21 16:52:56,035 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 16:52:56,035 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 16:52:56,035 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 16:52:56,035 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 16:52:59,594 - speechRecognitionMode.py[line:111] - INFO: 唤醒成功！！
+
+2021-06-21 16:52:59,594 - speechRecognitionMode.py[line:52] - INFO: 唤醒词音频为wakeUpResponse_shuobayoushenmwokeyibangni.mp3
+2021-06-21 16:53:02,991 - speechRecognitionMode.py[line:42] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 16:53:03,003 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 16:53:03,003 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 16:53:03,018 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 16:53:03,038 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 16:53:08,036 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 16:53:09,147 - speechRecognitionMode.py[line:119] - INFO: mojaAsr:段子吧！
+2021-06-21 16:53:10,014 - speechRecognitionMode.py[line:123] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.999299168586731, 'label': '1'}, 'raw_query': '段子吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['段子'], 'weight': 0.7869860529899597, 'term': '段子', 'type': '21'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.10650698095560074, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.10650698095560074, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 16:53:10,014 - speechRecognitionMode.py[line:126] - INFO: intent: 
+slots: []
+2021-06-21 16:57:59,668 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 16:57:59,668 - speechRecognitionMode.py[line:99] - INFO: 语音识别模块入口
+2021-06-21 16:57:59,670 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 16:57:59,671 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 16:57:59,671 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 16:57:59,671 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 16:58:02,397 - speechRecognitionMode.py[line:111] - INFO: 唤醒成功！！
+
+2021-06-21 16:58:02,414 - speechRecognitionMode.py[line:52] - INFO: 唤醒词音频为wakeUpResponse_wozaine.mp3
+2021-06-21 16:58:02,834 - speechRecognitionMode.py[line:42] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 16:58:02,840 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 16:58:02,847 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 16:58:02,869 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 16:58:02,885 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 16:58:07,891 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 16:58:09,484 - speechRecognitionMode.py[line:119] - INFO: mojaAsr:跳个舞吧！
+2021-06-21 16:58:10,225 - speechRecognitionMode.py[line:123] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9998788833618164, 'label': '1'}, 'raw_query': '跳个舞吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['跳'], 'weight': 0.2872353792190552, 'term': '跳', 'type': '34'}, {'etypes': [], 'basic_word': ['个'], 'weight': 0.16002650558948517, 'term': '个', 'type': '29'}, {'etypes': [], 'basic_word': ['舞'], 'weight': 0.43499717116355896, 'term': '舞', 'type': '34'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.05887046456336975, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.05887046456336975, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 16:58:10,228 - speechRecognitionMode.py[line:126] - INFO: intent: 
+slots: []
+2021-06-21 17:02:07,524 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 17:02:07,525 - speechRecognitionMode.py[line:99] - INFO: 语音识别模块入口
+2021-06-21 17:02:07,527 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 17:02:07,527 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 17:02:07,527 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 17:02:07,528 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 17:02:10,787 - speechRecognitionMode.py[line:111] - INFO: 唤醒成功！！
+
+2021-06-21 17:02:10,788 - speechRecognitionMode.py[line:52] - INFO: 唤醒词音频为wakeUpResponse_wonengbangniganshaa.mp3
+2021-06-21 17:02:11,146 - speechRecognitionMode.py[line:42] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 17:02:11,152 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 17:02:11,152 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 17:02:11,179 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 17:02:11,205 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 17:02:16,201 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 17:02:17,247 - speechRecognitionMode.py[line:119] - INFO: mojaAsr:跳个舞吧！
+2021-06-21 17:02:18,033 - speechRecognitionMode.py[line:123] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9998788833618164, 'label': '1'}, 'raw_query': '跳个舞吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['跳'], 'weight': 0.2872353792190552, 'term': '跳', 'type': '34'}, {'etypes': [], 'basic_word': ['个'], 'weight': 0.16002650558948517, 'term': '个', 'type': '29'}, {'etypes': [], 'basic_word': ['舞'], 'weight': 0.43499717116355896, 'term': '舞', 'type': '34'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.05887046456336975, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.05887046456336975, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 17:02:18,034 - speechRecognitionMode.py[line:126] - INFO: intent: 
+slots: []
+2021-06-21 17:06:15,668 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 17:06:15,669 - speechRecognitionMode.py[line:99] - INFO: 语音识别模块入口
+2021-06-21 17:06:15,669 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 17:06:15,671 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 17:06:15,671 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 17:06:15,671 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 17:06:18,091 - speechRecognitionMode.py[line:111] - INFO: 唤醒成功！！
+
+2021-06-21 17:06:18,109 - speechRecognitionMode.py[line:52] - INFO: 唤醒词音频为wakeUpResponse_shuobayoushenmwokeyibangni.mp3
+2021-06-21 17:06:18,522 - speechRecognitionMode.py[line:42] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 17:06:18,528 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 17:06:18,534 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 17:06:18,541 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 17:06:18,564 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 17:06:23,576 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 17:06:24,688 - speechRecognitionMode.py[line:119] - INFO: mojaAsr:跳个舞吧！
+2021-06-21 17:06:25,322 - speechRecognitionMode.py[line:123] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9998788833618164, 'label': '1'}, 'raw_query': '跳个舞吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['跳'], 'weight': 0.2872353792190552, 'term': '跳', 'type': '34'}, {'etypes': [], 'basic_word': ['个'], 'weight': 0.16002650558948517, 'term': '个', 'type': '29'}, {'etypes': [], 'basic_word': ['舞'], 'weight': 0.43499717116355896, 'term': '舞', 'type': '34'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.05887046456336975, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.05887046456336975, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 17:06:25,323 - speechRecognitionMode.py[line:126] - INFO: intent: 
+slots: []
+2021-06-21 17:08:23,296 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 17:08:23,297 - speechRecognitionMode.py[line:99] - INFO: 语音识别模块入口
+2021-06-21 17:08:23,299 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 17:08:23,299 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 17:08:23,300 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 17:08:23,300 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 17:08:25,723 - speechRecognitionMode.py[line:111] - INFO: 唤醒成功！！
+
+2021-06-21 17:08:25,755 - speechRecognitionMode.py[line:52] - INFO: 唤醒词音频为wakeUpResponse_woxiangxiabanqingbuyaojiaowoo.mp3
+2021-06-21 17:08:26,204 - speechRecognitionMode.py[line:42] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 17:08:26,216 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 17:08:26,216 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 17:08:26,225 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 17:08:26,241 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 17:08:31,242 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 17:08:32,722 - speechRecognitionMode.py[line:119] - INFO: mojaAsr:跳个舞吧！
+2021-06-21 17:08:33,365 - speechRecognitionMode.py[line:123] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9998788833618164, 'label': '1'}, 'raw_query': '跳个舞吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['跳'], 'weight': 0.2872353792190552, 'term': '跳', 'type': '34'}, {'etypes': [], 'basic_word': ['个'], 'weight': 0.16002650558948517, 'term': '个', 'type': '29'}, {'etypes': [], 'basic_word': ['舞'], 'weight': 0.43499717116355896, 'term': '舞', 'type': '34'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.05887046456336975, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.05887046456336975, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 17:08:33,367 - speechRecognitionMode.py[line:126] - INFO: intent: 
+slots: []
+2021-06-21 17:09:50,260 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 17:09:50,261 - speechRecognitionMode.py[line:99] - INFO: 语音识别模块入口
+2021-06-21 17:09:50,263 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 17:09:50,263 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 17:09:50,263 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 17:09:50,264 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 17:09:52,304 - speechRecognitionMode.py[line:111] - INFO: 唤醒成功！！
+
+2021-06-21 17:09:52,305 - speechRecognitionMode.py[line:52] - INFO: 唤醒词音频为wakeUpResponse_wonengbangniganshaa.mp3
+2021-06-21 17:09:52,704 - speechRecognitionMode.py[line:42] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 17:09:52,722 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 17:09:52,729 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 17:09:52,746 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 17:09:52,758 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 17:09:57,761 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 17:09:58,721 - speechRecognitionMode.py[line:119] - INFO: mojaAsr:跳个舞吧！
+2021-06-21 17:09:59,464 - speechRecognitionMode.py[line:123] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9998788833618164, 'label': '1'}, 'raw_query': '跳个舞吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['跳'], 'weight': 0.2872353792190552, 'term': '跳', 'type': '34'}, {'etypes': [], 'basic_word': ['个'], 'weight': 0.16002650558948517, 'term': '个', 'type': '29'}, {'etypes': [], 'basic_word': ['舞'], 'weight': 0.43499717116355896, 'term': '舞', 'type': '34'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.05887046456336975, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.05887046456336975, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 17:09:59,464 - speechRecognitionMode.py[line:126] - INFO: intent: 
+slots: []
+2021-06-21 17:09:59,809 - speechRecognitionMode.py[line:42] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 17:09:59,809 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 17:09:59,810 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 17:09:59,810 - mapRouteSettingMode.py[line:23] - INFO: 地图设置向模块底层发送数据
+2021-06-21 17:09:59,811 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 17:10:18,429 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 17:10:18,429 - speechRecognitionMode.py[line:99] - INFO: 语音识别模块入口
+2021-06-21 17:10:18,431 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 17:10:18,431 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 17:10:18,432 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 17:10:18,432 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 17:10:20,859 - speechRecognitionMode.py[line:111] - INFO: 唤醒成功！！
+
+2021-06-21 17:10:20,949 - speechRecognitionMode.py[line:52] - INFO: 唤醒词音频为wakeUpResponse_wonengbangniganshaa.mp3
+2021-06-21 17:10:21,100 - speechRecognitionMode.py[line:42] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 17:10:21,117 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 17:10:21,128 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 17:10:21,179 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 17:10:21,203 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 17:10:26,197 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 17:10:27,162 - speechRecognitionMode.py[line:119] - INFO: mojaAsr:渣渣眼睛。
+2021-06-21 17:10:27,770 - speechRecognitionMode.py[line:123] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9016534686088562, 'label': '1'}, 'raw_query': '渣渣眼睛。', 'lexical_analysis': [{'etypes': [], 'basic_word': ['渣渣'], 'weight': 0.46831053495407104, 'term': '渣渣', 'type': '21'}, {'etypes': [], 'basic_word': ['眼睛'], 'weight': 0.46831053495407104, 'term': '眼睛', 'type': '21'}, {'etypes': [], 'basic_word': ['。'], 'weight': 0.06337893754243851, 'term': '。', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 17:10:27,770 - speechRecognitionMode.py[line:126] - INFO: intent: 
+slots: []
+2021-06-21 17:13:07,469 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 17:13:07,470 - speechRecognitionMode.py[line:99] - INFO: 语音识别模块入口
+2021-06-21 17:13:07,473 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 17:13:07,474 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 17:13:07,474 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 17:13:07,474 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 17:13:10,744 - speechRecognitionMode.py[line:111] - INFO: 唤醒成功！！
+
+2021-06-21 17:13:10,762 - speechRecognitionMode.py[line:52] - INFO: 唤醒词音频为wakeUpResponse_woxiangxiabanqingbuyaojiaowoo.mp3
+2021-06-21 17:13:11,134 - speechRecognitionMode.py[line:42] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 17:13:11,151 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 17:13:11,151 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 17:13:11,181 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 17:13:11,186 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 17:13:16,193 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 17:13:17,482 - speechRecognitionMode.py[line:119] - INFO: mojaAsr:渣渣眼睛。
+2021-06-21 17:13:18,382 - speechRecognitionMode.py[line:123] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9016534686088562, 'label': '1'}, 'raw_query': '渣渣眼睛。', 'lexical_analysis': [{'etypes': [], 'basic_word': ['渣渣'], 'weight': 0.46831053495407104, 'term': '渣渣', 'type': '21'}, {'etypes': [], 'basic_word': ['眼睛'], 'weight': 0.46831053495407104, 'term': '眼睛', 'type': '21'}, {'etypes': [], 'basic_word': ['。'], 'weight': 0.06337893754243851, 'term': '。', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 17:13:18,382 - speechRecognitionMode.py[line:126] - INFO: intent: 
+slots: []
+2021-06-21 17:13:18,730 - speechRecognitionMode.py[line:42] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 17:13:18,730 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 17:13:18,731 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 17:13:18,731 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 17:14:18,637 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 17:14:18,638 - speechRecognitionMode.py[line:99] - INFO: 语音识别模块入口
+2021-06-21 17:14:18,638 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 17:14:18,640 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 17:14:18,640 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 17:14:18,640 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 17:14:21,118 - speechRecognitionMode.py[line:111] - INFO: 唤醒成功！！
+
+2021-06-21 17:14:21,134 - speechRecognitionMode.py[line:52] - INFO: 唤醒词音频为wakeUpResponse_wonengbangniganshaa.mp3
+2021-06-21 17:14:21,553 - speechRecognitionMode.py[line:42] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 17:14:21,573 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 17:14:21,579 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 17:14:21,595 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 17:14:21,620 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 17:14:26,630 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 17:14:27,717 - speechRecognitionMode.py[line:119] - INFO: mojaAsr:你能做什么呀？
+2021-06-21 17:14:28,792 - speechRecognitionMode.py[line:123] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9973288774490356, 'label': '1'}, 'raw_query': '你能做什么呀？', 'lexical_analysis': [{'etypes': ['sys_coref_person'], 'basic_word': ['你'], 'weight': 0.4211752116680145, 'term': '你', 'type': 'sys_coref_person'}, {'etypes': [], 'basic_word': ['能'], 'weight': 0.15494169294834137, 'term': '能', 'type': '34'}, {'etypes': [], 'basic_word': ['做'], 'weight': 0.15494169294834137, 'term': '做', 'type': '34'}, {'etypes': [], 'basic_word': ['什么'], 'weight': 0.15494169294834137, 'term': '什么', 'type': '30'}, {'etypes': [], 'basic_word': ['呀'], 'weight': 0.05699986591935158, 'term': '呀', 'type': '38'}, {'etypes': [], 'basic_word': ['？'], 'weight': 0.05699986591935158, 'term': '？', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 17:14:28,799 - speechRecognitionMode.py[line:126] - INFO: intent: 
+slots: []
+2021-06-21 17:14:29,241 - speechRecognitionMode.py[line:42] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 17:14:29,247 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 17:14:29,248 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 17:14:29,260 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 17:14:45,951 - speechRecognitionMode.py[line:134] - INFO: 没有唤醒！！
+
+2021-06-21 17:14:45,951 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 17:14:45,951 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 17:14:45,953 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 18:21:47,306 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 18:21:47,306 - speechRecognitionMode.py[line:103] - INFO: 语音识别模块入口
+2021-06-21 18:21:47,308 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 18:21:47,308 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 18:21:47,308 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 18:21:47,308 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 18:21:51,098 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:21:51,105 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_woxianzaibuxiangshuohua.mp3
+2021-06-21 18:21:51,173 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:21:51,186 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:21:51,186 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:21:51,198 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:21:51,210 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:21:56,210 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:21:57,666 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:跳个舞。
+2021-06-21 18:21:59,005 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9996871948242188, 'label': '1'}, 'raw_query': '跳个舞。', 'lexical_analysis': [{'etypes': [], 'basic_word': ['跳'], 'weight': 0.44039854407310486, 'term': '跳', 'type': '34'}, {'etypes': [], 'basic_word': ['个'], 'weight': 0.05960145965218544, 'term': '个', 'type': '29'}, {'etypes': [], 'basic_word': ['舞'], 'weight': 0.44039854407310486, 'term': '舞', 'type': '21'}, {'etypes': [], 'basic_word': ['。'], 'weight': 0.05960145965218544, 'term': '。', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:21:59,005 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:21:59,317 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:21:59,318 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 18:21:59,318 - mapRouteSettingMode.py[line:23] - INFO: 地图设置向模块底层发送数据
+2021-06-21 18:21:59,318 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 18:21:59,318 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 18:22:03,938 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:22:03,952 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_woxianzaibuxiangshuohua.mp3
+2021-06-21 18:22:04,009 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:22:04,020 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:22:04,020 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:22:04,020 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:22:04,038 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:22:09,027 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:22:09,972 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:唱首歌吧！
+2021-06-21 18:22:10,862 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9999443292617798, 'label': '1'}, 'raw_query': '唱首歌吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['唱'], 'weight': 0.30574771761894226, 'term': '唱', 'type': '34'}, {'etypes': [], 'basic_word': ['首'], 'weight': 0.30574771761894226, 'term': '首', 'type': '20'}, {'etypes': [], 'basic_word': ['歌'], 'weight': 0.30574771761894226, 'term': '歌', 'type': '21'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.041378453373909, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.041378453373909, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:22:10,862 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:22:56,682 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 18:22:56,682 - speechRecognitionMode.py[line:103] - INFO: 语音识别模块入口
+2021-06-21 18:22:56,685 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 18:22:56,685 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 18:22:56,685 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 18:22:56,687 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 18:22:59,033 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:22:59,048 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_woxiangxiabanqingbuyaojiaowoo.mp3
+2021-06-21 18:22:59,114 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:22:59,121 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:22:59,121 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:22:59,129 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:22:59,153 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:23:04,148 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:23:05,011 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:唱首歌吧！
+2021-06-21 18:23:05,826 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9999443292617798, 'label': '1'}, 'raw_query': '唱首歌吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['唱'], 'weight': 0.30574771761894226, 'term': '唱', 'type': '34'}, {'etypes': [], 'basic_word': ['首'], 'weight': 0.30574771761894226, 'term': '首', 'type': '20'}, {'etypes': [], 'basic_word': ['歌'], 'weight': 0.30574771761894226, 'term': '歌', 'type': '21'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.041378453373909, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.041378453373909, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:23:05,826 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:23:06,200 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:23:06,207 - mapRouteSettingMode.py[line:23] - INFO: 地图设置向模块底层发送数据
+2021-06-21 18:23:06,208 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 18:23:06,208 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 18:23:06,225 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 18:23:10,657 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:23:10,661 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_jiaowogansha.mp3
+2021-06-21 18:23:10,699 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:23:10,705 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:23:10,705 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:23:10,707 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:23:10,727 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:23:15,729 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:23:16,580 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:跳个舞吧！
+2021-06-21 18:23:17,285 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9998788833618164, 'label': '1'}, 'raw_query': '跳个舞吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['跳'], 'weight': 0.2872353792190552, 'term': '跳', 'type': '34'}, {'etypes': [], 'basic_word': ['个'], 'weight': 0.16002650558948517, 'term': '个', 'type': '29'}, {'etypes': [], 'basic_word': ['舞'], 'weight': 0.43499717116355896, 'term': '舞', 'type': '34'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.05887046456336975, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.05887046456336975, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:23:17,285 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:23:56,581 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 18:23:56,583 - speechRecognitionMode.py[line:103] - INFO: 语音识别模块入口
+2021-06-21 18:23:56,593 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 18:23:56,596 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 18:23:56,598 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 18:23:56,601 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 18:23:58,795 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:23:58,801 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_woxianzaibuxiangshuohua.mp3
+2021-06-21 18:23:58,876 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:23:58,882 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:23:58,899 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:23:58,914 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:23:58,933 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:24:03,927 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:24:05,208 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:唱首歌吧！
+2021-06-21 18:24:06,269 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9999443292617798, 'label': '1'}, 'raw_query': '唱首歌吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['唱'], 'weight': 0.30574771761894226, 'term': '唱', 'type': '34'}, {'etypes': [], 'basic_word': ['首'], 'weight': 0.30574771761894226, 'term': '首', 'type': '20'}, {'etypes': [], 'basic_word': ['歌'], 'weight': 0.30574771761894226, 'term': '歌', 'type': '21'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.041378453373909, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.041378453373909, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:24:06,269 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:24:06,531 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:24:06,533 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 18:24:06,534 - mapRouteSettingMode.py[line:23] - INFO: 地图设置向模块底层发送数据
+2021-06-21 18:24:06,536 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 18:24:06,542 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 18:24:09,893 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:24:09,893 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_wonengbangniganshaa.mp3
+2021-06-21 18:24:09,935 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:24:09,947 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:24:09,955 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:24:09,957 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:24:09,966 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:24:14,977 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:24:15,747 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:能跳个舞吗？
+2021-06-21 18:24:16,436 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9998078942298888, 'label': '1'}, 'raw_query': '能跳个舞吗？', 'lexical_analysis': [{'etypes': [], 'basic_word': ['能'], 'weight': 0.13795074820518496, 'term': '能', 'type': '34'}, {'etypes': [], 'basic_word': ['跳'], 'weight': 0.24761106073856357, 'term': '跳', 'type': '34'}, {'etypes': [], 'basic_word': ['个'], 'weight': 0.13795074820518496, 'term': '个', 'type': '29'}, {'etypes': [], 'basic_word': ['舞'], 'weight': 0.37498900294303894, 'term': '舞', 'type': '34'}, {'etypes': [], 'basic_word': ['吗'], 'weight': 0.050749242305755615, 'term': '吗', 'type': '38'}, {'etypes': [], 'basic_word': ['？'], 'weight': 0.050749242305755615, 'term': '？', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:24:16,444 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:26:50,131 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 18:26:50,132 - speechRecognitionMode.py[line:103] - INFO: 语音识别模块入口
+2021-06-21 18:26:50,146 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 18:26:50,149 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 18:26:50,149 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 18:26:50,150 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 18:26:52,575 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:26:52,575 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_wozaine.mp3
+2021-06-21 18:26:52,649 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:26:52,665 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:26:52,671 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:26:52,682 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:26:52,706 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:26:57,689 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:26:59,048 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:唱首歌吧！
+2021-06-21 18:26:59,641 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9999443292617798, 'label': '1'}, 'raw_query': '唱首歌吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['唱'], 'weight': 0.30574771761894226, 'term': '唱', 'type': '34'}, {'etypes': [], 'basic_word': ['首'], 'weight': 0.30574771761894226, 'term': '首', 'type': '20'}, {'etypes': [], 'basic_word': ['歌'], 'weight': 0.30574771761894226, 'term': '歌', 'type': '21'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.041378453373909, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.041378453373909, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:26:59,642 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:27:21,892 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 18:27:21,893 - speechRecognitionMode.py[line:103] - INFO: 语音识别模块入口
+2021-06-21 18:27:21,894 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 18:27:21,895 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 18:27:21,895 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 18:27:21,895 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 18:27:25,315 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:27:25,318 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_wozaine.mp3
+2021-06-21 18:27:25,418 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:27:25,435 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:27:25,437 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:27:25,451 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:27:25,467 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:27:30,465 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:27:31,422 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:唱首歌吧！
+2021-06-21 18:27:32,255 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9999443292617798, 'label': '1'}, 'raw_query': '唱首歌吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['唱'], 'weight': 0.30574771761894226, 'term': '唱', 'type': '34'}, {'etypes': [], 'basic_word': ['首'], 'weight': 0.30574771761894226, 'term': '首', 'type': '20'}, {'etypes': [], 'basic_word': ['歌'], 'weight': 0.30574771761894226, 'term': '歌', 'type': '21'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.041378453373909, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.041378453373909, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:27:32,268 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:27:32,788 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:27:32,794 - mapRouteSettingMode.py[line:23] - INFO: 地图设置向模块底层发送数据
+2021-06-21 18:27:32,794 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 18:27:36,779 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:27:36,779 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_shuobayoushenmwokeyibangni.mp3
+2021-06-21 18:27:36,810 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:27:36,816 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:27:36,816 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:27:36,816 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:27:36,822 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:27:41,835 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:27:42,372 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:扎扎眼吧！
+2021-06-21 18:27:43,164 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9957876801490784, 'label': '1'}, 'raw_query': '扎扎眼吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['扎扎'], 'weight': 0.44039854407310486, 'term': '扎扎', 'type': '34'}, {'etypes': [], 'basic_word': ['眼'], 'weight': 0.44039854407310486, 'term': '眼', 'type': '21'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.05960145965218544, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.05960145965218544, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:27:43,164 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:28:52,294 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 18:28:52,295 - speechRecognitionMode.py[line:103] - INFO: 语音识别模块入口
+2021-06-21 18:28:52,297 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 18:28:52,297 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 18:28:52,297 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 18:28:52,298 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 18:28:58,821 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:28:58,831 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_wonengbangniganshaa.mp3
+2021-06-21 18:28:58,896 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:28:58,915 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:28:58,925 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:28:58,935 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:28:58,949 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:29:03,944 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:29:04,866 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:唱首歌吧！
+2021-06-21 18:29:05,552 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9999443292617798, 'label': '1'}, 'raw_query': '唱首歌吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['唱'], 'weight': 0.30574771761894226, 'term': '唱', 'type': '34'}, {'etypes': [], 'basic_word': ['首'], 'weight': 0.30574771761894226, 'term': '首', 'type': '20'}, {'etypes': [], 'basic_word': ['歌'], 'weight': 0.30574771761894226, 'term': '歌', 'type': '21'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.041378453373909, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.041378453373909, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:29:05,553 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:29:05,869 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:29:05,875 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 18:29:05,875 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 18:29:05,875 - mapRouteSettingMode.py[line:23] - INFO: 地图设置向模块底层发送数据
+2021-06-21 18:29:05,876 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 18:29:09,614 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:29:09,614 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_woxiangxiabanqingbuyaojiaowoo.mp3
+2021-06-21 18:29:09,649 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:29:09,666 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:29:09,672 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:29:09,677 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:29:09,689 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:29:14,679 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:29:15,457 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:唱首歌吧！
+2021-06-21 18:29:16,052 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9999443292617798, 'label': '1'}, 'raw_query': '唱首歌吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['唱'], 'weight': 0.30574771761894226, 'term': '唱', 'type': '34'}, {'etypes': [], 'basic_word': ['首'], 'weight': 0.30574771761894226, 'term': '首', 'type': '20'}, {'etypes': [], 'basic_word': ['歌'], 'weight': 0.30574771761894226, 'term': '歌', 'type': '21'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.041378453373909, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.041378453373909, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:29:16,054 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:34:49,949 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 18:34:49,950 - speechRecognitionMode.py[line:103] - INFO: 语音识别模块入口
+2021-06-21 18:34:49,950 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 18:34:49,952 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 18:34:49,952 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 18:34:49,952 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 18:34:55,418 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:34:55,496 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_woxianzaibuxiangshuohua.mp3
+2021-06-21 18:34:55,891 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:34:55,903 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:34:55,903 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:34:55,913 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:34:55,947 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:35:00,941 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:35:02,226 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:跳个舞吧！
+2021-06-21 18:35:03,117 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9998788833618164, 'label': '1'}, 'raw_query': '跳个舞吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['跳'], 'weight': 0.2872353792190552, 'term': '跳', 'type': '34'}, {'etypes': [], 'basic_word': ['个'], 'weight': 0.16002650558948517, 'term': '个', 'type': '29'}, {'etypes': [], 'basic_word': ['舞'], 'weight': 0.43499717116355896, 'term': '舞', 'type': '34'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.05887046456336975, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.05887046456336975, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:35:03,118 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:35:16,771 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 18:35:16,772 - speechRecognitionMode.py[line:103] - INFO: 语音识别模块入口
+2021-06-21 18:35:16,774 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 18:35:16,775 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 18:35:16,775 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 18:35:16,775 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 18:35:19,466 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:35:19,467 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_shuobayoushenmwokeyibangni.mp3
+2021-06-21 18:35:19,558 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:35:19,564 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:35:19,566 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:35:19,588 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:35:19,595 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:35:24,593 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:35:25,664 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:跳个舞吧！
+2021-06-21 18:35:30,349 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9998788833618164, 'label': '1'}, 'raw_query': '跳个舞吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['跳'], 'weight': 0.2872353792190552, 'term': '跳', 'type': '34'}, {'etypes': [], 'basic_word': ['个'], 'weight': 0.16002650558948517, 'term': '个', 'type': '29'}, {'etypes': [], 'basic_word': ['舞'], 'weight': 0.43499717116355896, 'term': '舞', 'type': '34'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.05887046456336975, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.05887046456336975, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:35:30,349 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:35:30,711 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:35:30,714 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 18:35:30,715 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 18:35:30,724 - mapRouteSettingMode.py[line:23] - INFO: 地图设置向模块底层发送数据
+2021-06-21 18:35:30,724 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 18:35:34,313 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:35:34,314 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_wozaine.mp3
+2021-06-21 18:35:34,370 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:35:34,386 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:35:34,386 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:35:34,386 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:35:34,398 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:35:39,391 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:35:40,128 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:唱首歌吧！
+2021-06-21 18:35:41,025 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9999443292617798, 'label': '1'}, 'raw_query': '唱首歌吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['唱'], 'weight': 0.30574771761894226, 'term': '唱', 'type': '34'}, {'etypes': [], 'basic_word': ['首'], 'weight': 0.30574771761894226, 'term': '首', 'type': '20'}, {'etypes': [], 'basic_word': ['歌'], 'weight': 0.30574771761894226, 'term': '歌', 'type': '21'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.041378453373909, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.041378453373909, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:35:41,025 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:38:57,814 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 18:38:57,815 - speechRecognitionMode.py[line:103] - INFO: 语音识别模块入口
+2021-06-21 18:38:57,815 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 18:38:57,817 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 18:38:57,817 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 18:38:57,817 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 18:39:00,964 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:39:00,964 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_wonengbangniganshaa.mp3
+2021-06-21 18:39:01,333 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:39:01,340 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:39:01,346 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:39:01,370 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:39:01,377 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:39:06,375 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:39:07,478 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:唱首歌吧！
+2021-06-21 18:39:08,146 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9999443292617798, 'label': '1'}, 'raw_query': '唱首歌吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['唱'], 'weight': 0.30574771761894226, 'term': '唱', 'type': '34'}, {'etypes': [], 'basic_word': ['首'], 'weight': 0.30574771761894226, 'term': '首', 'type': '20'}, {'etypes': [], 'basic_word': ['歌'], 'weight': 0.30574771761894226, 'term': '歌', 'type': '21'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.041378453373909, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.041378453373909, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:39:08,146 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:39:08,581 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:39:08,600 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 18:39:08,600 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 18:39:08,600 - mapRouteSettingMode.py[line:23] - INFO: 地图设置向模块底层发送数据
+2021-06-21 18:39:08,606 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 18:39:12,170 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:39:12,176 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_wozaine.mp3
+2021-06-21 18:39:12,232 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:39:12,238 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:39:12,244 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:39:12,244 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:39:12,256 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:39:17,255 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:39:18,296 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:再唱一首歌吧！
+2021-06-21 18:39:19,077 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9996449947357178, 'label': '1'}, 'raw_query': '再唱一首歌吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['再'], 'weight': 0.13795074820518496, 'term': '再', 'type': '11'}, {'etypes': [], 'basic_word': ['唱'], 'weight': 0.24761106073856357, 'term': '唱', 'type': '34'}, {'etypes': ['sys_unit', 'sys_index_unit'], 'basic_word': ['一首'], 'weight': 0.37498900294303894, 'term': '一首', 'type': 'sys_unit'}, {'etypes': [], 'basic_word': ['歌'], 'weight': 0.13795074820518496, 'term': '歌', 'type': '21'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.050749242305755615, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.050749242305755615, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:39:19,084 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:41:07,197 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 18:41:07,197 - speechRecognitionMode.py[line:103] - INFO: 语音识别模块入口
+2021-06-21 18:41:07,199 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 18:41:07,200 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 18:41:07,200 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 18:41:07,200 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 18:41:10,275 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:41:10,337 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_woxianzaibuxiangshuohua.mp3
+2021-06-21 18:41:10,732 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:41:10,748 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:41:10,748 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:41:10,749 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:41:10,761 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:41:15,756 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:41:16,890 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:唱首歌吧！
+2021-06-21 18:41:17,608 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9999443292617798, 'label': '1'}, 'raw_query': '唱首歌吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['唱'], 'weight': 0.30574771761894226, 'term': '唱', 'type': '34'}, {'etypes': [], 'basic_word': ['首'], 'weight': 0.30574771761894226, 'term': '首', 'type': '20'}, {'etypes': [], 'basic_word': ['歌'], 'weight': 0.30574771761894226, 'term': '歌', 'type': '21'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.041378453373909, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.041378453373909, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:41:17,608 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:41:17,976 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:41:17,977 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 18:41:17,978 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 18:41:17,978 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 18:41:21,407 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:41:21,424 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_wonengbangniganshaa.mp3
+2021-06-21 18:41:21,500 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:41:21,506 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:41:21,513 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:41:21,515 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:41:21,535 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:41:26,530 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:41:27,335 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:唱首歌。
+2021-06-21 18:41:28,154 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9998891353607178, 'label': '1'}, 'raw_query': '唱首歌。', 'lexical_analysis': [{'etypes': [], 'basic_word': ['唱'], 'weight': 0.31894516944885254, 'term': '唱', 'type': '34'}, {'etypes': [], 'basic_word': ['首'], 'weight': 0.31894516944885254, 'term': '首', 'type': '20'}, {'etypes': [], 'basic_word': ['歌'], 'weight': 0.31894516944885254, 'term': '歌', 'type': '21'}, {'etypes': [], 'basic_word': ['。'], 'weight': 0.04316453263163567, 'term': '。', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:41:28,156 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:46:26,612 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 18:46:26,613 - speechRecognitionMode.py[line:103] - INFO: 语音识别模块入口
+2021-06-21 18:46:26,613 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 18:46:26,617 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 18:46:26,618 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 18:46:26,618 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 18:46:30,762 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:46:30,762 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_wozaine.mp3
+2021-06-21 18:46:31,126 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:46:31,139 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:46:31,151 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:46:31,198 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:46:31,204 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:46:36,203 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:46:37,358 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:唱首歌吧！
+2021-06-21 18:46:38,027 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9999443292617798, 'label': '1'}, 'raw_query': '唱首歌吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['唱'], 'weight': 0.30574771761894226, 'term': '唱', 'type': '34'}, {'etypes': [], 'basic_word': ['首'], 'weight': 0.30574771761894226, 'term': '首', 'type': '20'}, {'etypes': [], 'basic_word': ['歌'], 'weight': 0.30574771761894226, 'term': '歌', 'type': '21'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.041378453373909, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.041378453373909, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:46:38,027 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:46:38,627 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:46:38,627 - mapRouteSettingMode.py[line:23] - INFO: 地图设置向模块底层发送数据
+2021-06-21 18:46:38,627 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 18:46:38,627 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 18:46:38,638 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 18:46:42,418 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:46:42,424 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_shuobayoushenmwokeyibangni.mp3
+2021-06-21 18:46:42,496 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:46:42,502 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:46:42,502 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:46:42,502 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:46:42,508 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:46:47,513 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:46:48,061 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:唱首歌吧！
+2021-06-21 18:46:48,643 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9999443292617798, 'label': '1'}, 'raw_query': '唱首歌吧！', 'lexical_analysis': [{'etypes': [], 'basic_word': ['唱'], 'weight': 0.30574771761894226, 'term': '唱', 'type': '34'}, {'etypes': [], 'basic_word': ['首'], 'weight': 0.30574771761894226, 'term': '首', 'type': '20'}, {'etypes': [], 'basic_word': ['歌'], 'weight': 0.30574771761894226, 'term': '歌', 'type': '21'}, {'etypes': [], 'basic_word': ['吧'], 'weight': 0.041378453373909, 'term': '吧', 'type': '38'}, {'etypes': [], 'basic_word': ['！'], 'weight': 0.041378453373909, 'term': '！', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:46:48,643 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:52:07,171 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 18:52:07,171 - speechRecognitionMode.py[line:103] - INFO: 语音识别模块入口
+2021-06-21 18:52:07,172 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 18:52:07,173 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 18:52:07,174 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 18:52:07,174 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 18:52:09,620 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:52:09,652 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_wonengbangniganshaa.mp3
+2021-06-21 18:52:10,028 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:52:10,046 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:52:10,046 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:52:10,076 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:52:10,083 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:52:15,091 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:52:15,965 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:唱首歌。
+2021-06-21 18:52:16,810 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9998891353607178, 'label': '1'}, 'raw_query': '唱首歌。', 'lexical_analysis': [{'etypes': [], 'basic_word': ['唱'], 'weight': 0.31894516944885254, 'term': '唱', 'type': '34'}, {'etypes': [], 'basic_word': ['首'], 'weight': 0.31894516944885254, 'term': '首', 'type': '20'}, {'etypes': [], 'basic_word': ['歌'], 'weight': 0.31894516944885254, 'term': '歌', 'type': '21'}, {'etypes': [], 'basic_word': ['。'], 'weight': 0.04316453263163567, 'term': '。', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:52:16,810 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:52:17,188 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:52:17,201 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 18:52:17,201 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 18:52:17,203 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 18:52:20,977 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:52:20,982 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_wozaine.mp3
+2021-06-21 18:52:21,057 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:52:21,063 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:52:21,075 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:52:21,075 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:52:21,083 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:52:26,081 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:52:26,773 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:唱首歌。
+2021-06-21 18:52:27,581 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9998891353607178, 'label': '1'}, 'raw_query': '唱首歌。', 'lexical_analysis': [{'etypes': [], 'basic_word': ['唱'], 'weight': 0.31894516944885254, 'term': '唱', 'type': '34'}, {'etypes': [], 'basic_word': ['首'], 'weight': 0.31894516944885254, 'term': '首', 'type': '20'}, {'etypes': [], 'basic_word': ['歌'], 'weight': 0.31894516944885254, 'term': '歌', 'type': '21'}, {'etypes': [], 'basic_word': ['。'], 'weight': 0.04316453263163567, 'term': '。', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:52:27,582 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:52:27,972 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:52:27,990 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 18:52:27,994 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 18:52:27,994 - mapRouteSettingMode.py[line:23] - INFO: 地图设置向模块底层发送数据
+2021-06-21 18:52:27,995 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 18:52:31,962 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:52:31,962 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_wozaine.mp3
+2021-06-21 18:52:32,016 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:52:32,022 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:52:32,022 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:52:32,035 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:52:32,068 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:52:37,070 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:52:37,884 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:唱首歌。
+2021-06-21 18:53:42,942 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-06-21 18:53:42,942 - speechRecognitionMode.py[line:103] - INFO: 语音识别模块入口
+2021-06-21 18:53:42,942 - actionControlMode.py[line:15] - INFO: 动作控制模块入口
+2021-06-21 18:53:42,942 - mapRouteSettingMode.py[line:15] - INFO: 地图路线设置模块入口
+2021-06-21 18:53:42,957 - dualRobotInteractionMode.py[line:36] - INFO: 双机器人互动模块入口
+2021-06-21 18:53:42,957 - positionInformationFromChassisMode.py[line:15] - INFO: 底盘交互模块模块入口
+2021-06-21 18:53:45,903 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:53:45,903 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_woxianzaibuxiangshuohua.mp3
+2021-06-21 18:53:46,333 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:53:46,351 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:53:46,363 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:53:46,381 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:53:46,402 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:53:51,400 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:53:52,355 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:唱首歌。
+2021-06-21 18:53:53,103 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9998891353607178, 'label': '1'}, 'raw_query': '唱首歌。', 'lexical_analysis': [{'etypes': [], 'basic_word': ['唱'], 'weight': 0.31894516944885254, 'term': '唱', 'type': '34'}, {'etypes': [], 'basic_word': ['首'], 'weight': 0.31894516944885254, 'term': '首', 'type': '20'}, {'etypes': [], 'basic_word': ['歌'], 'weight': 0.31894516944885254, 'term': '歌', 'type': '21'}, {'etypes': [], 'basic_word': ['。'], 'weight': 0.04316453263163567, 'term': '。', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:53:53,110 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:53:53,444 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:53:53,444 - mapRouteSettingMode.py[line:23] - INFO: 地图设置向模块底层发送数据
+2021-06-21 18:53:53,444 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 18:53:53,446 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 18:53:53,446 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 18:53:56,796 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:53:56,796 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_woxianzaibuxiangshuohua.mp3
+2021-06-21 18:53:56,873 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:53:56,897 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:53:56,897 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:53:56,897 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:53:56,902 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:54:01,902 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:54:02,708 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:跳个舞。
+2021-06-21 18:54:03,653 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9996871948242188, 'label': '1'}, 'raw_query': '跳个舞。', 'lexical_analysis': [{'etypes': [], 'basic_word': ['跳'], 'weight': 0.44039854407310486, 'term': '跳', 'type': '34'}, {'etypes': [], 'basic_word': ['个'], 'weight': 0.05960145965218544, 'term': '个', 'type': '29'}, {'etypes': [], 'basic_word': ['舞'], 'weight': 0.44039854407310486, 'term': '舞', 'type': '21'}, {'etypes': [], 'basic_word': ['。'], 'weight': 0.05960145965218544, 'term': '。', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:54:03,654 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:54:04,014 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:54:04,014 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 18:54:04,014 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 18:54:04,015 - mapRouteSettingMode.py[line:23] - INFO: 地图设置向模块底层发送数据
+2021-06-21 18:54:04,015 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 18:54:11,302 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:54:11,308 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_shuobayoushenmwokeyibangni.mp3
+2021-06-21 18:54:11,374 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:54:11,380 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:54:11,380 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:54:11,386 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:54:11,403 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:54:16,403 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:54:17,028 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:笑一个。
+2021-06-21 18:54:17,935 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9928359389305116, 'label': '1'}, 'raw_query': '笑一个。', 'lexical_analysis': [{'etypes': [], 'basic_word': ['笑'], 'weight': 0.6102957129478455, 'term': '笑', 'type': '34'}, {'etypes': ['sys_unit', 'sys_index_unit'], 'basic_word': ['一', '个'], 'weight': 0.3071097657084465, 'term': '一个', 'type': 'sys_unit'}, {'etypes': [], 'basic_word': ['。'], 'weight': 0.08259453624486923, 'term': '。', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:54:17,935 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:54:18,386 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:54:18,395 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 18:54:18,396 - mapRouteSettingMode.py[line:23] - INFO: 地图设置向模块底层发送数据
+2021-06-21 18:54:18,399 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 18:54:18,399 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 18:54:34,908 - speechRecognitionMode.py[line:138] - INFO: 没有唤醒！！
+
+2021-06-21 18:54:34,908 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 18:54:34,908 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A
+2021-06-21 18:54:34,909 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 18:54:39,749 - speechRecognitionMode.py[line:115] - INFO: 唤醒成功！！
+
+2021-06-21 18:54:39,761 - speechRecognitionMode.py[line:49] - INFO: 唤醒词音频为wakeUpResponse_jiaowogansha.mp3
+2021-06-21 18:54:39,867 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:54:39,897 - speechRecognitionMode.py[line:62] - INFO: Input Device id 0 - b'Microsoft Sound Mapper - Input'
+2021-06-21 18:54:39,897 - speechRecognitionMode.py[line:62] - INFO: Input Device id 1 - b'ReSpeaker 4 Mic Array (UAC1.0) '
+2021-06-21 18:54:39,897 - speechRecognitionMode.py[line:62] - INFO: Input Device id 2 - b'\xa8\xae\xa1\xa4\xa8\xae (Synaptics Audio)'
+2021-06-21 18:54:39,903 - speechRecognitionMode.py[line:71] - INFO: * recording
+2021-06-21 18:54:44,902 - speechRecognitionMode.py[line:79] - INFO: * done recording
+2021-06-21 18:54:45,773 - speechRecognitionMode.py[line:123] - INFO: mojaAsr:你能帮我干什么？
+2021-06-21 18:54:46,462 - speechRecognitionMode.py[line:127] - INFO: answer:{'status': 0, 'msg': 'ok', 'origin': '1101887', 'schema': {'intent_confidence': 0.0, 'slots': [], 'domain_confidence': 0.0, 'intent': ''}, 'action_list': [{'refine_detail': {'option_list': [], 'interact': '', 'clarify_reason': ''}, 'action_id': 'fail_action', 'confidence': 100.0, 'custom_reply': '', 'say': '我不知道应该怎么答复您。', 'type': 'failure'}], 'qu_res': {'qu_res_chosen': '{"confidence":0.0,"intent":"","intent_confidence":0.0,"domain_confidence":0.0,"intent_need_clarify":false,"slots":[],"from_who":"","match_info":"","extra_info":{}}', 'candidates': [{'intent_confidence': 0.0, 'match_info': '', 'slots': [], 'extra_info': {}, 'confidence': 0.0, 'domain_confidence': 0.0, 'from_who': '', 'intent': '', 'intent_need_clarify': False}], 'sentiment_analysis': {'pval': 0.9999210834503174, 'label': '1'}, 'raw_query': '你能帮我干什么？', 'lexical_analysis': [{'etypes': ['sys_coref_person'], 'basic_word': ['你'], 'weight': 0.12122734636068344, 'term': '你', 'type': 'sys_coref_person'}, {'etypes': [], 'basic_word': ['能'], 'weight': 0.04459704831242561, 'term': '能', 'type': '34'}, {'etypes': [], 'basic_word': ['帮'], 'weight': 0.12122734636068344, 'term': '帮', 'type': '34'}, {'etypes': ['sys_coref_person'], 'basic_word': ['我'], 'weight': 0.21759383380413055, 'term': '我', 'type': 'sys_coref_person'}, {'etypes': [], 'basic_word': ['干'], 'weight': 0.32953011989593506, 'term': '干', 'type': '34'}, {'etypes': [], 'basic_word': ['什么'], 'weight': 0.12122734636068344, 'term': '什么', 'type': '30'}, {'etypes': [], 'basic_word': ['？'], 'weight': 0.04459704831242561, 'term': '？', 'type': '37'}], 'timestamp': 0, 'status': 0}}
+2021-06-21 18:54:46,463 - speechRecognitionMode.py[line:130] - INFO: intent: 
+slots: []
+2021-06-21 18:54:46,777 - speechRecognitionMode.py[line:39] - INFO: 唤醒词应答已回复！！
+
+2021-06-21 18:54:46,777 - positionInformationFromChassisMode.py[line:24] - INFO: 底盘交互模块底层发送数据
+2021-06-21 18:54:46,779 - mapRouteSettingMode.py[line:23] - INFO: 地图设置向模块底层发送数据
+2021-06-21 18:54:46,779 - actionControlMode.py[line:23] - INFO: 动作模块向底层发送数据
+2021-06-21 18:54:46,790 - dualRobotInteractionMode.py[line:15] - INFO: 到达位置A

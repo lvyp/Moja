@@ -21,7 +21,7 @@ def positionInformationFromChassisMode():
         # 从底层获取当前位置信息
         if globalVariable.get_value("mapRouteSettingFlag") is True:
             globalVariable.set_position("positionA", True)
-            logger.info("底盘交互模块模块底层发送数据")
+            logger.info("底盘交互模块底层发送数据")
             globalVariable.set_value("mapRouteSettingFlag", False)
         else:
             # logger.info("什么都不做")
