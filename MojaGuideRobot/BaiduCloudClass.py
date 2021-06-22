@@ -10,6 +10,7 @@ import os
 
 import requests
 from aip import AipSpeech, AipNlp
+from loggerMode import logger
 
 
 class Baidu_NLU(object):
@@ -64,10 +65,14 @@ class BaiduCloud(object):
 
     def call_asr(self, filePath):
         with open(filePath, "rb") as fp:
-            asr_result = self.AipSpeechclient.asr(fp.read(), "pcm", 16000, {
-                "dev_pid": 1537,
-            })
-            return asr_result.get("result")[0]
+            try:
+                asr_result = self.AipSpeechclient.asr(fp.read(), "wav", 16000, {
+                    "dev_pid": 1537,
+                })
+                return asr_result.get("result")[0]
+            except Exception as e:
+                logger.info("Exception Happened: " + str(e))
+                return "Exception Happened"
 
     def call_tts(self, text):
         result = self.AipSpeechclient.synthesis(text, "zh", 1, {

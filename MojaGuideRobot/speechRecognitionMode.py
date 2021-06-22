@@ -25,14 +25,16 @@ RESPEAKER_WIDTH = 2
 # run getDeviceInfo.py to get index
 RESPEAKER_INDEX = 1  # refer to input device id
 CHUNK = 1024
-RECORD_SECONDS = 5
+RECORD_SECONDS = 4
 WAVE_OUTPUT_FILENAME = "./MicRecording/output.wav"
 WAKEUP_RESPONSE_PATH = "./TtsRecording/wakeUpResponse/"
 TTS_BY_BAIDUCLOUD_PATH = "./TtsRecording/BaiduCloud/TtsResponse.mp3"
+TTS_BY_EXCEPTION_PATH = "./TtsRecording/Exception/"
 
 
 def PlayVoice(path):
-    playJudge = playsound(path, False)
+    print(path)
+    playJudge = playsound(path, True)  # 设置为True需要同步进行。否则录音时会将播放的应该回复录入
     if playJudge is False:
         logger.info("音频格式不正确，无法播放！！\n")
     else:
@@ -121,15 +123,22 @@ def speechRecognitionMode():
             baiDuCloud = BaiduCloudClass.BaiduCloud()
             mojaAsr = baiDuCloud.call_asr(WAVE_OUTPUT_FILENAME)
             logger.info("mojaAsr:" + mojaAsr)
-            # 将ASR识别结果发送给NLU进行自然语言处理
-            mojaNlu = BaiduCloudClass.Baidu_NLU()
-            answer = mojaNlu.get_NLU(mojaAsr)
-            logger.info("answer:" + str(answer))
-            intent = answer["schema"]["intent"]
-            slots = answer["schema"]["slots"]
-            logger.info("intent: " + str(intent) + "\nslots: " + str(slots))
-            baiDuCloud.call_tts(answer["action_list"][0]["say"])
-            PlayVoice(TTS_BY_BAIDUCLOUD_PATH)
+            if mojaAsr == "Exception Happened":
+                # 获取异常文件夹内所有异常文件名称,进行随机答复
+                wakeUpWordlist = os.listdir(TTS_BY_EXCEPTION_PATH)
+                fileNameStr = random.sample(wakeUpWordlist, 1)
+                logger.info("异常音频为" + fileNameStr[0])
+                PlayVoice(TTS_BY_EXCEPTION_PATH + fileNameStr[0])
+            else:
+                # 将ASR识别结果发送给NLU进行自然语言处理
+                mojaNlu = BaiduCloudClass.Baidu_NLU()
+                answer = mojaNlu.get_NLU(mojaAsr)
+                logger.info("answer:" + str(answer))
+                intent = answer["schema"]["intent"]
+                slots = answer["schema"]["slots"]
+                logger.info("intent: " + str(intent) + "\nslots: " + str(slots))
+                baiDuCloud.call_tts(answer["action_list"][0]["say"])
+                PlayVoice(TTS_BY_BAIDUCLOUD_PATH)
             # 根据NLU返回的intent和slot进行判断控制相应的线程
 
         elif returnValue == "201":
