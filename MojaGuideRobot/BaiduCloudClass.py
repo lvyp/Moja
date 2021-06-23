@@ -46,13 +46,17 @@ class Baidu_NLU(object):
             "service_id": self.AppID,  # 机器人ID，service_id 与skill_ids不能同时缺失，至少一个有值·
             "request": {"query": text, "user_id": "88888"},
         }
-        response = requests.post(url=url, data=json.dumps(body), headers=headers)
-        if response:
-            json_result = response.json().get("result")
-            print(json_result)
-            self.session_id = json_result.get("session_id")
-            answer = json_result.get("response_list")[0]
-            return answer
+        try:
+            response = requests.post(url=url, data=json.dumps(body), headers=headers)
+            if response:
+                json_result = response.json().get("result")
+                print(json_result)
+                self.session_id = json_result.get("session_id")
+                answer = json_result.get("response_list")[0]
+                return answer
+        except Exception as e:
+            logger.info("ASR Exception Happened: " + str(e))
+            return {"error": "Exception Happened"}
 
 
 class BaiduCloud(object):
@@ -69,19 +73,28 @@ class BaiduCloud(object):
                 asr_result = self.AipSpeechclient.asr(fp.read(), "wav", 16000, {
                     "dev_pid": 1537,
                 })
-                return asr_result.get("result")[0]
+                if asr_result["result"] == "":
+                    return ""
+                else:
+                    return asr_result.get("result")[0]
             except Exception as e:
-                logger.info("Exception Happened: " + str(e))
+                logger.info("ASR Exception Happened: " + str(e))
                 return "Exception Happened"
 
     def call_tts(self, text):
-        result = self.AipSpeechclient.synthesis(text, "zh", 1, {
-            "vol": 5,
-        })
-        if not isinstance(result, dict):
-            if os.path.exists("./TtsRecording/BaiduCloud/TtsResponse.mp3"):
-                os.remove("./TtsRecording/BaiduCloud/TtsResponse.mp3")
-            else:
-                pass
-            with open("./TtsRecording/BaiduCloud/TtsResponse.mp3", "wb") as f:
-                f.write(result)
+        try:
+            result = self.AipSpeechclient.synthesis(text, "zh", 1, {
+                "vol": 5,
+            })
+            if not isinstance(result, dict):
+                if os.path.exists("./TtsRecording/BaiduCloud/TtsResponse.mp3"):
+                    os.remove("./TtsRecording/BaiduCloud/TtsResponse.mp3")
+                else:
+                    pass
+                with open("./TtsRecording/BaiduCloud/TtsResponse.mp3", "wb") as f:
+                    f.write(result)
+            return "Successful"
+        except Exception as e:
+            logger.info("NLU Exception Happened: " + str(e))
+            return "Exception Happened"
+
