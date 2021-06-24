@@ -34,7 +34,7 @@ TTS_BY_NOTGETVOICE_PATH = "./TtsRecording/NotGetVoice/"
 
 
 def PlayVoice(path):
-    print(path)
+    # print(path)
     playJudge = playsound(path, True)  # 设置为True需要同步进行。否则录音时会将播放的应该回复录入
     if playJudge is False:
         logger.info("音频格式不正确，无法播放！！\n")
@@ -78,8 +78,9 @@ def micGenerateRocord():
     numdevices = micInfo.get('deviceCount')
     for i in range(0, numdevices):
         if (mojaMic.get_device_info_by_host_api_device_index(0, i).get('maxInputChannels')) > 0:
-            logger.info("Input Device id " + str(i) + " - " + str(mojaMic.get_device_info_by_host_api_device_index(0, i).get('name').encode("GBK", "ignore")))
-            print("Input Device id ", i, " - ", mojaMic.get_device_info_by_host_api_device_index(0, i).get('name'))
+            pass
+            # logger.info("Input Device id " + str(i) + " - " + str(mojaMic.get_device_info_by_host_api_device_index(0, i).get('name').encode("GBK", "ignore")))
+            # print("Input Device id ", i, " - ", mojaMic.get_device_info_by_host_api_device_index(0, i).get('name'))
     # 开始录音
     stream = mojaMic.open(
         rate=RESPEAKER_RATE,
@@ -111,6 +112,14 @@ def micGenerateRocord():
 
 def voiceDirection():
     pass
+
+
+def commandSend(intent, slots):
+    if intent == "ROBOT_MOVE":
+        globalVariable.set_position_name()
+        globalVariable.set_value("mapRouteSettingFlag", True)
+    else:
+        pass
 
 
 def speechRecognitionMode():
@@ -148,11 +157,12 @@ def speechRecognitionMode():
                 # 将ASR识别结果发送给NLU进行自然语言处理
                 mojaNlu = BaiduCloudClass.Baidu_NLU()
                 answer = mojaNlu.get_NLU(mojaAsr)
-                logger.info("answer:" + str(answer))
+                #logger.info("answer:" + str(answer))
                 if "error" in answer.keys():
                     ExceptionResponse()
                 else:
                     intent = answer["schema"]["intent"]
+                    # slots = answer["schema"]["slots"][0]["original_word"]
                     slots = answer["schema"]["slots"]
                     logger.info("intent: " + str(intent) + "\nslots: " + str(slots))
                     mojaTts = baiDuCloud.call_tts(answer["action_list"][0]["say"])
@@ -160,13 +170,12 @@ def speechRecognitionMode():
                         PlayVoice(TTS_BY_BAIDUCLOUD_PATH)
                     else:
                         ExceptionResponse()
-            # 根据NLU返回的intent和slot进行判断控制相应的线程
-
+                    # 根据NLU返回的intent和slot进行判断控制相应的线程
+                    commandSend(intent, slots)
         elif returnValue == "201":
             logger.info("登录失败！！\n")
         elif returnValue == "200":
             logger.info("没有唤醒！！\n")
-        globalVariable.set_value("actionFlag", True)
-        globalVariable.set_value("mapRouteSettingFlag", True)
+        # globalVariable.set_value("actionFlag", True)
         event.set()
         rLock.release()

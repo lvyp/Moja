@@ -22,6 +22,7 @@ if __name__ == '__main__':
     globalVariable._init()
     globalVariable.set_value("actionFlag", False)
     globalVariable.set_value("mapRouteSettingFlag", False)
+    globalVariable.set_value("positionInformationFromChassisFlag", False)
 
     # 设置线程组
     threads = []

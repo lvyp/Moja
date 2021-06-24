@@ -8,13 +8,30 @@
 import threading
 import globalVariable
 from loggerMode import logger
+from playsound import playsound
+
+TTS_BY_COMMUNICATION_PATH = "./TtsRecording/dualRobotCommunication/"
+
+
+def PlayVoice(path):
+    # print(path)
+    playJudge = playsound(path, True)  # 设置为True需要同步进行。否则录音时会将播放的应该回复录入
+    if playJudge is False:
+        logger.info("音频格式不正确，无法播放！！\n")
+    else:
+        logger.info("对话应答已回复！！\n")
 
 
 def switch_if():
     if globalVariable.get_position("positionA"):
         logger.info("到达位置A")
+        PlayVoice(TTS_BY_COMMUNICATION_PATH + "Communication_hug.mp3")
+        PlayVoice(TTS_BY_COMMUNICATION_PATH + "Communication_iSeeYouLikeHug.mp3")
         globalVariable.set_position("positionA", False)
-        pass
+        if globalVariable.get_position_list_len() > 0:
+            globalVariable.set_value("mapRouteSettingFlag", True)
+        else:
+            pass
     elif globalVariable.get_position("positionB"):
         logger.info("到达位置B")
         globalVariable.set_position("positionB", False)

@@ -2,6 +2,7 @@
 
 import threading
 from enum import Enum
+from httpClass import HttpClass
 
 
 def _init():  # 初始化
@@ -10,13 +11,43 @@ def _init():  # 初始化
     global _intent
     global _slot
     global _position
+    global _position_name_list
+    global position_name
+    global GlobalHttp
+    global _position_list_len
 
+    GlobalHttp = HttpClass()
     _global_dict = {}
     _event = threading.Event()
     _intent = IntentEnum.INITIALACTION
     _slot = {'position': SlotPositionEnum.ALL, 'direction': SlotDirectionEnum.UP}
     _position = {"positionA": False, "positionB": False,
                  "positionC": False, "positionD": False}
+    _position_name_list = []
+    position_name = ""
+    _position_list_len = 0
+
+
+def get_position_list_len():
+    return _position_list_len
+
+
+def get_position_name():
+    global position_name
+    global _position_list_len
+    position_name = _position_name_list[0]
+    del _position_name_list[0]
+    _position_list_len = len(_position_name_list)
+    return position_name
+
+
+def set_position_name():
+    for key in GlobalHttp.get_target_list():
+        _position_name_list.append(key)
+
+
+def get_position_list():
+    return GlobalHttp.get_target_list()
 
 
 def set_value(key, value):

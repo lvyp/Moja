@@ -8,6 +8,9 @@
 import threading
 import globalVariable
 from loggerMode import logger
+from httpClass import HttpClass
+
+URL = "http://192.168.1.110/cmd/nav"
 
 
 def mapRouteSettingMode():
@@ -21,6 +24,10 @@ def mapRouteSettingMode():
         rLock.acquire()
         if globalVariable.get_value("mapRouteSettingFlag") is True:
             logger.info("地图设置向模块底层发送数据")
+            httpRequest = HttpClass()
+            body = globalVariable.get_position_name()
+            httpRequest.move_target(body)
+            globalVariable.set_value("positionInformationFromChassisFlag", True)
             globalVariable.set_value("mapRouteSettingFlag", False)
         else:
             # logger.info("什么都不做")
