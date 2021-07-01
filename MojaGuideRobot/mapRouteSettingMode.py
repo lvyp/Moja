@@ -8,9 +8,7 @@
 import threading
 import globalVariable
 from loggerMode import logger
-from httpClass import HttpClass
-
-URL = "http://192.168.1.110/cmd/nav"
+from serialClass import Serial
 
 
 def mapRouteSettingMode():
@@ -24,9 +22,8 @@ def mapRouteSettingMode():
         rLock.acquire()
         if globalVariable.get_value("mapRouteSettingFlag") is True:
             logger.info("地图设置向模块底层发送数据")
-            httpRequest = HttpClass()
-            body = globalVariable.get_position_name()
-            httpRequest.move_target(body)
+            globalVariable.set_position_name_by_serial(globalVariable.mojaSerial.get_target_list())
+            globalVariable.mojaSerial.sendMessage("point[{0}]".format(globalVariable.get_position_name()))
             globalVariable.set_value("positionInformationFromChassisFlag", True)
             globalVariable.set_value("mapRouteSettingFlag", False)
         else:

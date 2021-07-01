@@ -116,7 +116,7 @@ def voiceDirection():
 
 def commandSend(intent, slots):
     if intent == "ROBOT_MOVE":
-        globalVariable.set_position_name()
+        # globalVariable.set_position_name()  # web API使用
         globalVariable.set_value("mapRouteSettingFlag", True)
     else:
         pass
@@ -144,10 +144,11 @@ def speechRecognitionMode():
             # 播放音频回复用户
             wakeUpResponse()
             # 进行麦克风收音，生成音频文件
-            micGenerateRocord()
+            # micGenerateRocord()
             # 将音频发送给百度云进行ASR解析
             baiDuCloud = BaiduCloudClass.BaiduCloud()
-            mojaAsr = baiDuCloud.call_asr(WAVE_OUTPUT_FILENAME)
+            # mojaAsr = baiDuCloud.call_asr(WAVE_OUTPUT_FILENAME)
+            mojaAsr = baiDuCloud.ASR()
             logger.info("mojaAsr:" + mojaAsr)
             if mojaAsr == "Exception Happened":
                 ExceptionResponse()
@@ -157,7 +158,7 @@ def speechRecognitionMode():
                 # 将ASR识别结果发送给NLU进行自然语言处理
                 mojaNlu = BaiduCloudClass.Baidu_NLU()
                 answer = mojaNlu.get_NLU(mojaAsr)
-                #logger.info("answer:" + str(answer))
+                # logger.info("answer:" + str(answer))
                 if "error" in answer.keys():
                     ExceptionResponse()
                 else:

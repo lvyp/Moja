@@ -3,11 +3,13 @@
 # @Time : 2021/6/11 10:12
 # @Author :
 # @Site : Beijing
-# @File : speechRecognitionMode.py
+# @File : BaiduCloudClass.py
 # @Software: PyCharm
 import json
 import os
 
+import pyaudio
+import tqdm as tqdm
 import requests
 from aip import AipSpeech, AipNlp
 from loggerMode import logger
@@ -40,7 +42,7 @@ class Baidu_NLU(object):
             "log_id": "UNITTEST_10000",  # 开发者需要在客户端生成的唯一id，用来定位请求，响应中会返回该字段。对话中每轮请求都需要一个log_id
             "session_id": self.session_id,
             # session保存机器人的历史会话信息，由机器人创建，客户端从上轮应答中取出并直接传递，不需要了解其内容。如果为空，则表示清空session（开发者判断用户意图已经切换且下一轮会话不需要继承上一轮会话中的词槽信息时可以把session置空，从而进行新一轮的会话）。session字段内容较多，开发者可以通过传送session_id的方式节约传输流量。
-            "bot_id":"1099740",
+            "bot_id": "1099740",
             "skill_sessions": "",
 
             "service_id": self.AppID,  # 机器人ID，service_id 与skill_ids不能同时缺失，至少一个有值·
@@ -66,6 +68,32 @@ class BaiduCloud(object):
         self.Cloud_Secret_Key = "iCvIBWCrEG2E8OBfmIiVWU3dgGZPT9B9"
         self.AipSpeechclient = AipSpeech(self.Cloud_AppID, self.Cloud_APIKey, self.Cloud_Secret_Key)
         self.NLPclient = AipNlp(self.Cloud_AppID, self.Cloud_APIKey, self.Cloud_Secret_Key)
+
+    def ASR(self):
+        pa = pyaudio.PyAudio()
+        stream = pa.open(format=pyaudio.paInt16, channels=1, rate=16000, input=True,
+                         frames_per_buffer=2048)
+        record_buf = []
+        print("开始ASR指令收集")
+        for i in tqdm.tqdm(range(8 * 4)):
+            audio_data = stream.read(2048)
+            record_buf.append(audio_data)
+        # 停止声卡
+        stream.stop_stream()
+        # 关闭声卡
+        stream.close()
+        # 终止pyaudio
+        pa.terminate()
+        try:
+            asr_result = self.AipSpeechclient.asr("".encode().join(record_buf), "wav", 16000, {"dev_pid": 1537, }).get(
+                "result")
+            if asr_result is None:
+                print("没有识别结果")
+            else:
+                return asr_result[0]
+        except Exception as e:
+            logger.info("ASR Exception Happened: " + str(e))
+            return "Exception Happened"
 
     def call_asr(self, filePath):
         with open(filePath, "rb") as fp:

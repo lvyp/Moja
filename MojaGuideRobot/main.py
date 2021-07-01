@@ -20,6 +20,7 @@ if __name__ == '__main__':
     # 墨甲导览机器人启动入口
     logger.info("墨甲导览机器人启动入口")
     globalVariable._init()
+
     globalVariable.set_value("actionFlag", False)
     globalVariable.set_value("mapRouteSettingFlag", False)
     globalVariable.set_value("positionInformationFromChassisFlag", False)
@@ -28,13 +29,13 @@ if __name__ == '__main__':
     threads = []
 
     # 创建线程：
-    actionControl = threading.Thread(target=actionControlMode)
+    # actionControl = threading.Thread(target=actionControlMode)
     dualRobotInteraction = threading.Thread(target=dualRobotInteractionMode)
     mapRouteSetting = threading.Thread(target=mapRouteSettingMode)
     speechRecognition = threading.Thread(target=speechRecognitionMode)
     positionInformationFromChassis = threading.Thread(target=positionInformationFromChassisMode)
     speechRecognition.setName("speechRecognition")
-    actionControl.setName("actionControl")
+    # actionControl.setName("actionControl")
     dualRobotInteraction.setName("dualRobotInteraction")
     mapRouteSetting.setName("mapRouteSetting")
     positionInformationFromChassis.setName("positionInformationFromChassis")
@@ -46,7 +47,7 @@ if __name__ == '__main__':
 
     # 添加到线程组
     threads.append(speechRecognition)
-    threads.append(actionControl)
+    # threads.append(actionControl)
     threads.append(mapRouteSetting)
     threads.append(dualRobotInteraction)
     threads.append(positionInformationFromChassis)

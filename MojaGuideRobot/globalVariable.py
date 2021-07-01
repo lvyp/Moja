@@ -2,7 +2,7 @@
 
 import threading
 from enum import Enum
-from httpClass import HttpClass
+from serialClass import Serial
 
 
 def _init():  # 初始化
@@ -15,8 +15,9 @@ def _init():  # 初始化
     global position_name
     global GlobalHttp
     global _position_list_len
+    global _navStatus
+    global mojaSerial
 
-    GlobalHttp = HttpClass()
     _global_dict = {}
     _event = threading.Event()
     _intent = IntentEnum.INITIALACTION
@@ -26,6 +27,17 @@ def _init():  # 初始化
     _position_name_list = []
     position_name = ""
     _position_list_len = 0
+    _navStatus = "0"
+    mojaSerial = Serial()
+
+
+def get_nav_status():
+    return _navStatus
+
+
+def set_nav_status(currentStatus):
+    global _navStatus
+    _navStatus = currentStatus
 
 
 def get_position_list_len():
@@ -39,6 +51,11 @@ def get_position_name():
     del _position_name_list[0]
     _position_list_len = len(_position_name_list)
     return position_name
+
+
+def set_position_name_by_serial(serial_list):
+    for key in serial_list:
+        _position_name_list.append(key)
 
 
 def set_position_name():
