@@ -6,7 +6,7 @@
 			"action_child": "smile",
 			"sub_time_old": 3.223,
 			"action_old": "anger",
-			"dialogue": "Communication_hug.mp3",
+			"dialogue": "./TtsRecording/dualRobotCommunication/Communication_hug.mp3",
 			"backgound music": ""
 		},
 		{
@@ -15,7 +15,7 @@
 			"action_child": "blink",
 			"sub_time_old": 0,
 			"action_old": "smile",
-			"dialogue": "Communication_iSeeYouLikeHug.mp3",
+			"dialogue": "./TtsRecording/dualRobotCommunication/Communication_iSeeYouLikeHug.mp3",
 			"backgound music": ""
 		},
 		{
@@ -24,7 +24,7 @@
 			"action_child": "",
 			"sub_time_old": 0,
 			"action_old": "",
-			"dialogue": "Communication_hug.mp3",
+			"dialogue": "./TtsRecording/dualRobotCommunication/Communication_hug.mp3",
 			"backgound music": ""
 		}
 	]

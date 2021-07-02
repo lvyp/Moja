@@ -29,7 +29,7 @@ def getPositionAndStartPlot():
     globalVariable.mojaSerial.recvMessage()
     if globalVariable.get_nav_status() == "2":
         # 控制剧本表演
-        globalVariable.set_position("positionA", True)
+        globalVariable.set_position(globalVariable.position_name, True)
         globalVariable.set_value("positionInformationFromChassisFlag", False)
     elif globalVariable.get_nav_status() == "4":
         logger.info("有阻碍物！！！")

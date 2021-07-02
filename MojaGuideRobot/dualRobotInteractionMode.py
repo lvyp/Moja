@@ -26,11 +26,17 @@ def PlayVoice(path):
         logger.info("对话应答已回复！！\n")
 
 
+def minChangeToSec(m, s):
+    s = m*60 + s
+    return s
+
+
 def timerMachine(startTime=0.000):
     dt_ms = datetime.datetime.now().strftime('%M:%S.%f')
     m, s = dt_ms.strip().split(":")
-    s = float(m) + float(s)
-    return float('%.3f' % (s - startTime))
+    ms = minChangeToSec(float(m), float(s))
+    # print("m: " + m + " s: " + s + " ms: " + str(ms) + " startTime: " + str(startTime))
+    return float('%.3f' % (ms - startTime))
 
 
 def parsePlot(jsonPath):
@@ -61,20 +67,20 @@ def parsePlot(jsonPath):
                 del tempDict["sub_time_old"]
 
             # print(currentTime)
-            if math.isclose(plot["time"], currentTime, abs_tol=0.010) and timeFlag == 0:
-            # if plot["time"] == currentTime:
+            # if math.isclose(plot["time"], currentTime, abs_tol=0.010) and timeFlag == 0:
+            if plot["time"] <= currentTime and timeFlag == 0:
                 timeFlag += 1
                 del tempDict["time"]
                 if plot["dialogue"] != "":
-                    PlayVoice(TTS_BY_XIANGSHENG_PATH + plot["dialogue"])
-            if math.isclose(plot["sub_time_child"], currentTime, abs_tol=0.010) and childTimeFlag == 0:
-            # if plot["sub_time_child"] == currentTime and childTimeFlag == 0:
+                    PlayVoice(plot["dialogue"])
+            # if math.isclose(plot["sub_time_child"], currentTime, abs_tol=0.010) and childTimeFlag == 0:
+            if plot["sub_time_child"] <= currentTime and childTimeFlag == 0:
                 childTimeFlag += 1
                 del tempDict["sub_time_child"]
                 if plot["action_child"] != "":
                     print("action_child")
-            if math.isclose(plot["sub_time_old"], currentTime, abs_tol=0.010) and oldTimeFlag == 0:
-            # if plot["sub_time_old"] == currentTime and oldTimeFlag == 0:
+            # if math.isclose(plot["sub_time_old"], currentTime, abs_tol=0.010) and oldTimeFlag == 0:
+            if plot["sub_time_old"] <= currentTime and oldTimeFlag == 0:
                 oldTimeFlag += 1
                 del tempDict["sub_time_old"]
                 if plot["action_old"] != "":
@@ -84,26 +90,28 @@ def parsePlot(jsonPath):
                 print("len(tempDict): " + str(len(tempDict)))
                 break
             else:
-                print(currentTime)
-                print(tempDict)
-
+                # print(currentTime)
+                # print(tempDict)
+                pass
 
 
 def switch_if():
-    if globalVariable.get_position("positionA"):
+    if globalVariable.get_position("position2"):
         logger.info("到达位置A")
         parsePlot("Plot1.json")
-        # PlayVoice(TTS_BY_COMMUNICATION_PATH + "Communication_hug.mp3")
-        # PlayVoice(TTS_BY_COMMUNICATION_PATH + "Communication_iSeeYouLikeHug.mp3")
-        globalVariable.set_position("positionA", False)
+        globalVariable.set_position("position2", False)
         if globalVariable.get_position_list_len() > 0:
             globalVariable.set_value("mapRouteSettingFlag", True)
         else:
             pass
-    elif globalVariable.get_position("positionB"):
+    elif globalVariable.get_position("position1"):
         logger.info("到达位置B")
-        globalVariable.set_position("positionB", False)
-        pass
+        parsePlot("Plot.json")
+        globalVariable.set_position("position1", False)
+        if globalVariable.get_position_list_len() > 0:
+            globalVariable.set_value("mapRouteSettingFlag", True)
+        else:
+            pass
     elif globalVariable.get_position("positionC"):
         logger.info("到达位置C")
         globalVariable.set_position("positionC", False)

@@ -1,12 +1,12 @@
 {
 	"MoJa": [
 		{
-			"time": 0.000,
+			"time": 0.010,
 			"sub_time_child": 0,
 			"action_child": "",
 			"sub_time_old": 0,
 			"action_old": "",
-			"dialogue": "xiangsheng1.mp3",
+			"dialogue": "./TtsRecording/xiangsheng/xiangsheng1.mp3",
 			"backgound music": ""
 		},
 		{
@@ -15,7 +15,7 @@
 			"action_child": "",
 			"sub_time_old": 0,
 			"action_old": "",
-			"dialogue": "xiangsheng2.mp3",
+			"dialogue": "./TtsRecording/xiangsheng/xiangsheng2.mp3",
 			"backgound music": ""
 		},
 		{
@@ -24,7 +24,7 @@
 			"action_child": "",
 			"sub_time_old": 0,
 			"action_old": "",
-			"dialogue": "xiangsheng3.mp3",
+			"dialogue": "./TtsRecording/xiangsheng/xiangsheng3.mp3",
 			"backgound music": ""
 		},
 		{
@@ -33,7 +33,7 @@
 			"action_child": "",
 			"sub_time_old": 0,
 			"action_old": "",
-			"dialogue": "xiangsheng4.mp3",
+			"dialogue": "./TtsRecording/xiangsheng/xiangsheng4.mp3",
 			"backgound music": ""
 		},
 		{
@@ -42,7 +42,7 @@
 			"action_child": "",
 			"sub_time_old": 0,
 			"action_old": "",
-			"dialogue": "xiangsheng5.mp3",
+			"dialogue": "./TtsRecording/xiangsheng/xiangsheng5.mp3",
 			"backgound music": ""
 		},
 		{
@@ -51,7 +51,7 @@
 			"action_child": "",
 			"sub_time_old": 0,
 			"action_old": "",
-			"dialogue": "xiangsheng6.mp3",
+			"dialogue": "./TtsRecording/xiangsheng/xiangsheng6.mp3",
 			"backgound music": ""
 		},
 		{
@@ -60,7 +60,7 @@
 			"action_child": "",
 			"sub_time_old": 0,
 			"action_old": "",
-			"dialogue": "xiangsheng7.mp3",
+			"dialogue": "./TtsRecording/xiangsheng/xiangsheng7.mp3",
 			"backgound music": ""
 		},
 		{
@@ -69,7 +69,7 @@
 			"action_child": "",
 			"sub_time_old": 0,
 			"action_old": "",
-			"dialogue": "xiangsheng8.mp3",
+			"dialogue": "./TtsRecording/xiangsheng/xiangsheng8.mp3",
 			"backgound music": ""
 		},
 		{
@@ -78,7 +78,7 @@
 			"action_child": "",
 			"sub_time_old": 0,
 			"action_old": "",
-			"dialogue": "xiangsheng9.mp3",
+			"dialogue": "./TtsRecording/xiangsheng/xiangsheng9.mp3",
 			"backgound music": ""
 		},
 		{
@@ -87,7 +87,7 @@
 			"action_child": "",
 			"sub_time_old": 0,
 			"action_old": "",
-			"dialogue": "xiangsheng10.mp3",
+			"dialogue": "./TtsRecording/xiangsheng/xiangsheng10.mp3",
 			"backgound music": ""
 		},
 		{
@@ -96,7 +96,7 @@
 			"action_child": "",
 			"sub_time_old": 0,
 			"action_old": "",
-			"dialogue": "xiangsheng11.mp3",
+			"dialogue": "./TtsRecording/xiangsheng/xiangsheng11.mp3",
 			"backgound music": ""
 		},
 		{
@@ -105,7 +105,7 @@
 			"action_child": "",
 			"sub_time_old": 0,
 			"action_old": "",
-			"dialogue": "xiangsheng12.mp3",
+			"dialogue": "./TtsRecording/xiangsheng/xiangsheng12.mp3",
 			"backgound music": ""
 		},
 		{
@@ -114,7 +114,7 @@
 			"action_child": "",
 			"sub_time_old": 0,
 			"action_old": "",
-			"dialogue": "xiangsheng13.mp3",
+			"dialogue": "./TtsRecording/xiangsheng/xiangsheng13.mp3",
 			"backgound music": ""
 		},
 		{
@@ -123,7 +123,7 @@
 			"action_child": "",
 			"sub_time_old": 0,
 			"action_old": "",
-			"dialogue": "xiangsheng14.mp3",
+			"dialogue": "./TtsRecording/xiangsheng/xiangsheng14.mp3",
 			"backgound music": ""
 		},
 		{
@@ -132,7 +132,7 @@
 			"action_child": "",
 			"sub_time_old": 0,
 			"action_old": "",
-			"dialogue": "xiangsheng15.mp3",
+			"dialogue": "./TtsRecording/xiangsheng/xiangsheng15.mp3",
 			"backgound music": ""
 		},
 		{
@@ -141,7 +141,7 @@
 			"action_child": "",
 			"sub_time_old": 0,
 			"action_old": "",
-			"dialogue": "xiangsheng16.mp3",
+			"dialogue": "./TtsRecording/xiangsheng/xiangsheng16.mp3",
 			"backgound music": ""
 		}
 	]
