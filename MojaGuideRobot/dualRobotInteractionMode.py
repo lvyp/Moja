@@ -12,6 +12,7 @@ import threading
 import globalVariable
 from loggerMode import logger
 from playsound import playsound
+import playAudioByLeftRightTrack as LRTrack
 
 TTS_BY_COMMUNICATION_PATH = "./TtsRecording/dualRobotCommunication/"
 TTS_BY_XIANGSHENG_PATH = "./TtsRecording/xiangsheng/"
@@ -59,6 +60,10 @@ def parsePlot(jsonPath):
         while True:
             currentTime = timerMachine(startTime)
 
+            del tempDict["dialogue_content"]
+            currentHuman = tempDict["current_human"]
+            del tempDict["current_human"]
+
             if plot["sub_time_child"] == 0 and childTimeFlag == 0:
                 childTimeFlag += 1
                 del tempDict["sub_time_child"]
@@ -72,7 +77,8 @@ def parsePlot(jsonPath):
                 timeFlag += 1
                 del tempDict["time"]
                 if plot["dialogue"] != "":
-                    PlayVoice(plot["dialogue"])
+                    # PlayVoice(plot["dialogue"])
+                    LRTrack.get_audio_devices_all_msg_dict(plot["dialogue"], currentHuman)
             # if math.isclose(plot["sub_time_child"], currentTime, abs_tol=0.010) and childTimeFlag == 0:
             if plot["sub_time_child"] <= currentTime and childTimeFlag == 0:
                 childTimeFlag += 1
@@ -98,7 +104,7 @@ def parsePlot(jsonPath):
 def switch_if():
     if globalVariable.get_position("position2"):
         logger.info("到达位置A")
-        parsePlot("Plot1.json")
+        parsePlot("./PLOT/Plot1.json")
         globalVariable.set_position("position2", False)
         if globalVariable.get_position_list_len() > 0:
             globalVariable.set_value("mapRouteSettingFlag", True)

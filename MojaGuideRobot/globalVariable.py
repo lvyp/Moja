@@ -17,6 +17,7 @@ def _init():  # 初始化
     global _position_list_len
     global _navStatus
     global mojaSerial
+    global session_id
 
     _global_dict = {}
     _event = threading.Event()
@@ -28,6 +29,7 @@ def _init():  # 初始化
     position_name = ""
     _position_list_len = 0
     _navStatus = "0"
+    session_id = ""
     mojaSerial = Serial()
 
 

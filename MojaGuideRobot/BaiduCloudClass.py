@@ -13,30 +13,20 @@ import tqdm as tqdm
 import requests
 from aip import AipSpeech, AipNlp
 from loggerMode import logger
+import globalVariable as GV
 
 
 class Baidu_NLU(object):
     def __init__(self):
-
         self.API_Key = "EI3cSUrazGNTbeCIU4R4IQ8e"
         self.Secret_Key = "ENbN0tsyS5QnlqeFznp6S5XltZfWkHLp"
-        self.AppID = "S53630"
+        self.AppID = "S54880"
         self.access_token = self.get_access_token()
-        self.session_id = ""
-
-    def get_access_token(self):
-        host = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id={0}&client_secret={1}'.format(
-            self.API_Key, self.Secret_Key)
-        response = requests.get(host)
-        return (response.json().get("access_token"))
-
-    def get_NLU(self,text):
-        url = 'https://aip.baidubce.com/rpc/2.0/unit/service/chat?access_token=' + self.access_token
-        post_data = "{\"dialog_state\":{\"contexts\":{\"SYS_REMEMBERED_SKILLS\":[\"1057\"]}}}"
-        headers = {
+        self.session_id = GV.session_id
+        self.headers = {
             'content-type': 'application/x-www-form-urlencoded'
         }
-        body = {
+        self.body = {
             "version": "2.0",
             # "skill_ids":"",技能ID列表。我们允许开发者指定调起哪些技能。这个列表是有序的——排在越前面的技能，优先级越高。技能优先级体现在response的排序上。
             "log_id": "UNITTEST_10000",  # 开发者需要在客户端生成的唯一id，用来定位请求，响应中会返回该字段。对话中每轮请求都需要一个log_id
@@ -46,14 +36,30 @@ class Baidu_NLU(object):
             "skill_sessions": "",
 
             "service_id": self.AppID,  # 机器人ID，service_id 与skill_ids不能同时缺失，至少一个有值·
-            "request": {"query": text, "user_id": "88888"},
+            "request": {"query": "", "user_id": "88888"},
+            "dialog_state": {
+                "contexts": {"SYS_REMEMBERED_SKILLS": ["1107705", "1099737", "1101887"]}
+            }
         }
+
+    def get_access_token(self):
+        host = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id={0}&client_secret={1}'.format(
+            self.API_Key, self.Secret_Key)
+        response = requests.get(host)
+        return (response.json().get("access_token"))
+
+    def get_NLU(self, text):
+        url = 'https://aip.baidubce.com/rpc/2.0/unit/service/chat?access_token=' + self.access_token
+
+        self.body["request"]["query"] = text
         try:
-            response = requests.post(url=url, data=json.dumps(body), headers=headers)
+            print("session_id_old:" + self.body["session_id"])
+            response = requests.post(url=url, data=json.dumps(self.body), headers=self.headers)
             if response:
                 json_result = response.json().get("result")
                 print(json_result)
-                self.session_id = json_result.get("session_id")
+                GV.session_id = json_result.get("session_id")
+                print("session_id_new:" + self.body["session_id"])
                 answer = json_result.get("response_list")[0]
                 return answer
         except Exception as e:
@@ -70,21 +76,25 @@ class BaiduCloud(object):
         self.NLPclient = AipNlp(self.Cloud_AppID, self.Cloud_APIKey, self.Cloud_Secret_Key)
 
     def ASR(self):
-        pa = pyaudio.PyAudio()
-        stream = pa.open(format=pyaudio.paInt16, channels=1, rate=16000, input=True,
-                         frames_per_buffer=2048)
-        record_buf = []
-        print("开始ASR指令收集")
-        for i in tqdm.tqdm(range(8 * 4)):
-            audio_data = stream.read(2048)
-            record_buf.append(audio_data)
-        # 停止声卡
-        stream.stop_stream()
-        # 关闭声卡
-        stream.close()
-        # 终止pyaudio
-        pa.terminate()
         try:
+            pa = pyaudio.PyAudio()
+            stream = pa.open(format=pyaudio.paInt16, channels=1, rate=16000, input=True,
+                             frames_per_buffer=2048)
+            record_buf = []
+            print("开始ASR指令收集")
+            pbar = tqdm.tqdm(range(100))
+            for i in pbar:
+                audio_data = stream.read(516)
+                record_buf.append(audio_data)
+            # 关闭占用的资源
+            pbar.close()
+            # 停止声卡
+            stream.stop_stream()
+            # 关闭声卡
+            stream.close()
+            # 终止pyaudio
+            pa.terminate()
+
             asr_result = self.AipSpeechclient.asr("".encode().join(record_buf), "wav", 16000, {"dev_pid": 1537, }).get(
                 "result")
             if asr_result is None:

@@ -1,0 +1,31 @@
+{
+	"MoJa": [
+		{
+			"time": 1.001,
+			"sub_time_child": 2.031,
+			"action_child": "smile",
+			"sub_time_old": 3.223,
+			"action_old": "anger",
+			"dialogue": "./TtsRecording/dualRobotCommunication/Communication_hug.mp3",
+			"backgound music": ""
+		},
+		{
+			"time": 5.001,
+			"sub_time_child": 0,
+			"action_child": "blink",
+			"sub_time_old": 0,
+			"action_old": "smile",
+			"dialogue": "./TtsRecording/dualRobotCommunication/Communication_iSeeYouLikeHug.mp3",
+			"backgound music": ""
+		},
+		{
+			"time": 8.200,
+			"sub_time_child": 0,
+			"action_child": "",
+			"sub_time_old": 0,
+			"action_old": "",
+			"dialogue": "./TtsRecording/dualRobotCommunication/Communication_hug.mp3",
+			"backgound music": ""
+		}
+	]
+}

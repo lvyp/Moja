@@ -17,6 +17,10 @@ import pyaudio
 import wave
 from playsound import playsound
 import BaiduCloudClass
+import playAudioByLeftRightTrack as LRTrack
+from tuning import Tuning
+import usb
+import time
 
 
 RESPEAKER_RATE = 16000
@@ -70,8 +74,6 @@ def wakeUpResponse():
 
 
 def micGenerateRocord():
-    # 声源定位
-    voiceDirection()
 
     mojaMic = pyaudio.PyAudio()
     micInfo = mojaMic.get_host_api_info_by_index(0)
@@ -110,12 +112,18 @@ def micGenerateRocord():
     wf.close()
 
 
+# 声源定位
 def voiceDirection():
-    pass
+    dev = usb.core.find(idVendor=0x2886, idProduct=0x0018)
+    dev.set_configuration()
+
+    if dev:
+        Mic_tuning = Tuning(dev)
+        print("位置信息: " + str(Mic_tuning.direction))
 
 
 def commandSend(intent, slots):
-    if intent == "ROBOT_MOVE":
+    if intent == "ROBOT_GUIDE":
         # globalVariable.set_position_name()  # web API使用
         globalVariable.set_value("mapRouteSettingFlag", True)
     else:
@@ -141,6 +149,8 @@ def speechRecognitionMode():
         win32api.FreeLibrary(cppDll._handle)  # 释放DLL资源，防止DLL变量未释放影响再次唤醒动作
         if returnValue == "202":
             logger.info("唤醒成功！！\n")
+            # 声源定位
+            voiceDirection()
             # 播放音频回复用户
             wakeUpResponse()
             # 进行麦克风收音，生成音频文件
@@ -163,12 +173,13 @@ def speechRecognitionMode():
                     ExceptionResponse()
                 else:
                     intent = answer["schema"]["intent"]
-                    # slots = answer["schema"]["slots"][0]["original_word"]
                     slots = answer["schema"]["slots"]
                     logger.info("intent: " + str(intent) + "\nslots: " + str(slots))
                     mojaTts = baiDuCloud.call_tts(answer["action_list"][0]["say"])
                     if mojaTts == "Successful":
-                        PlayVoice(TTS_BY_BAIDUCLOUD_PATH)
+                        TTS_WAV = LRTrack.trans_mp3_to_wav(TTS_BY_BAIDUCLOUD_PATH)
+                        LRTrack.get_audio_devices_all_msg_dict(TTS_WAV, "小竹")
+                        # PlayVoice(TTS_BY_BAIDUCLOUD_PATH)
                     else:
                         ExceptionResponse()
                     # 根据NLU返回的intent和slot进行判断控制相应的线程

@@ -1,0 +1,11 @@
+2021-07-02 18:47:55,937 - main.py[line:21] - INFO: 墨甲导览机器人启动入口
+2021-07-02 18:47:56,033 - speechRecognitionMode.py[line:131] - INFO: 语音识别模块入口
+2021-07-02 18:47:56,077 - mapRouteSettingMode.py[line:16] - INFO: 地图路线设置模块入口
+2021-07-02 18:47:56,078 - dualRobotInteractionMode.py[line:129] - INFO: 双机器人互动模块入口
+2021-07-02 18:47:56,078 - positionInformationFromChassisMode.py[line:47] - INFO: 底盘交互模块模块入口
+2021-07-02 18:48:02,392 - speechRecognitionMode.py[line:143] - INFO: 唤醒成功！！
+
+2021-07-02 18:48:02,439 - speechRecognitionMode.py[line:68] - INFO: 唤醒词音频为wakeUpResponse_wonengbangniganshaa.mp3
+2021-07-02 18:48:04,260 - speechRecognitionMode.py[line:42] - INFO: 对话应答已回复！！
+
+2021-07-02 18:48:10,221 - speechRecognitionMode.py[line:152] - INFO: mojaAsr:你在做什么？
