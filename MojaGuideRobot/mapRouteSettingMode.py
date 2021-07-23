@@ -22,8 +22,9 @@ def mapRouteSettingMode():
         rLock.acquire()
         if globalVariable.get_value("mapRouteSettingFlag") is True:
             logger.info("地图设置向模块底层发送数据")
-            globalVariable.set_position_name_by_serial(globalVariable.mojaSerial.get_target_list())
+            # globalVariable.set_position_name_by_serial(globalVariable.mojaSerial.get_target_list())
             globalVariable.mojaSerial.sendMessage("point[{0}]".format(globalVariable.get_position_name()))
+            globalVariable.moveStatus = 1  # 设置机器人运动状态为运动中，运动中不会进行声源定位
             globalVariable.set_value("positionInformationFromChassisFlag", True)
             globalVariable.set_value("mapRouteSettingFlag", False)
         else:

@@ -101,15 +101,22 @@ def parsePlot(jsonPath):
                 pass
 
 
+def mapRouteSettingClearJudge():
+    if globalVariable.get_position_list_len() > 0:
+        # 位置列表不为空，继续发送位置信息
+        globalVariable.set_value("mapRouteSettingFlag", True)
+    else:
+        # 位置列为空，不发送位置信息
+        # 运动状态置位，未运动
+        globalVariable.moveStatus = 0
+
+
 def switch_if():
     if globalVariable.get_position("position2"):
         logger.info("到达位置A")
         parsePlot("./PLOT/Plot1.json")
         globalVariable.set_position("position2", False)
-        if globalVariable.get_position_list_len() > 0:
-            globalVariable.set_value("mapRouteSettingFlag", True)
-        else:
-            pass
+        mapRouteSettingClearJudge()
     elif globalVariable.get_position("position1"):
         logger.info("到达位置B")
         parsePlot("Plot.json")

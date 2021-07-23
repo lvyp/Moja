@@ -117,14 +117,17 @@ def voiceDirection():
     dev = usb.core.find(idVendor=0x2886, idProduct=0x0018)
     dev.set_configuration()
 
-    if dev:
+    if dev and (globalVariable.moveStatus == 0):
         Mic_tuning = Tuning(dev)
         print("位置信息: " + str(Mic_tuning.direction))
+        # 控制底盘转动角度
 
 
 def commandSend(intent, slots):
-    if intent == "ROBOT_GUIDE":
+    # 当指令为机器人导览并且机器人未运动时，会执行导览命令
+    if (intent == "ROBOT_GUIDE") and (globalVariable.moveStatus == 0):
         # globalVariable.set_position_name()  # web API使用
+        globalVariable.set_position_name_by_serial(globalVariable.mojaSerial.get_target_list())
         globalVariable.set_value("mapRouteSettingFlag", True)
     else:
         pass
