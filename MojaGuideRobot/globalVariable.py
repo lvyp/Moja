@@ -19,6 +19,7 @@ def _init():  # 初始化
     global mojaSerial
     global session_id
     global moveStatus
+    global initPoint
 
     _global_dict = {}
     _event = threading.Event()
@@ -33,6 +34,7 @@ def _init():  # 初始化
     session_id = ""
     mojaSerial = Serial()
     moveStatus = 0  # 0是未运动;1是运动中;
+    initPoint = []
 
 
 def get_nav_status():

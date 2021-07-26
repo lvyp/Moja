@@ -54,6 +54,20 @@ def positionInformationFromChassisMode():
         if globalVariable.get_value("positionInformationFromChassisFlag") is True:
             # logger.info("底盘交互模块底层发送数据：实时获取位置信息")
             getPositionAndStartPlot()
+        elif globalVariable.get_value("positionInformationFromChassisInitPointFlag") is True:
+            globalVariable.mojaSerial.recvMessage()
+            if globalVariable.get_nav_status() == "2":
+                globalVariable.moveStatus = 0  # 设置机器人运动状态为未运动，运动中不会进行声源定位
+                globalVariable.set_value("positionInformationFromChassisInitPointFlag", False)
+            elif globalVariable.get_nav_status() == "4":
+                logger.info("有阻碍物！！！")
+                PlayVoice(TTS_BY_OBSTRUCTION_PATH + "Obstruction_1.mp3")
+            elif globalVariable.get_nav_status() == "5":
+                logger.info("有阻碍物！！！")
+                PlayVoice(TTS_BY_OBSTRUCTION_PATH + "Obstruction_2.mp3")
+            else:
+                pass
+            globalVariable.set_nav_status("0")
         else:
             # logger.info("什么都不做")
             pass

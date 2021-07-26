@@ -33,8 +33,11 @@ class Serial(object):
         self.targetList = {}
         self.availableDataList = []
         self.getAbailableSerialList()
+        self.recvMessage()
         self.connectWifi()
+        self.recvMessage()
         self.wifiIp()
+        self.recvMessage()
         with open("targetList.txt", "r", encoding='UTF-8') as f:
             self.target = json.load(f)
             print(self.target)
@@ -88,12 +91,12 @@ class Serial(object):
     def getAbailableSerialList(self):
         plist = list(serial.tools.list_ports.comports())
         if len(plist) <= 0:
-            print("The Serial port can't find!")
+            logger.info("The Serial port can't find!")
         else:
             plist_0 = list(plist[0])
             serialName = plist_0[0]
             self.serialFd = serial.Serial(serialName, 115200, timeout=60)
-            print("check which port was really used >", self.serialFd.name)
+            logger.info("check which port was really used >" + self.serialFd.name)
 
     def sendMessage(self, Data):
         # 将字符串数据转换为bytes数组
@@ -112,8 +115,8 @@ class Serial(object):
 
     def recvMessage(self):
         if self.serialFd.in_waiting:
-            with open("log.txt", "a") as f:
-                serStr = str(self.serialFd.read(self.serialFd.in_waiting))
+            with open("serialLog.txt", "a") as f:
+                serStr = str(self.serialFd.read(self.serialFd.in_waiting)) + "\r\n"
                 f.write(serStr)
                 if "move_status" in serStr:
                     print("move_status")
@@ -128,6 +131,10 @@ class Serial(object):
                 if "move_status" in tempStr:
                     logger.info("move_status: " + tempStr[-2])
                     globalVariable.set_nav_status(tempStr[-2])
+
+                if "nav:pose" in tempStr:
+                    logger.info("nav:pose: " + tempStr[7:-2])
+                    globalVariable.initPoint.append(tempStr[7:-2])
 
                 if "ip:" in tempStr:
                     logger.info("WIFI IP: " + tempStr[-2])
@@ -162,3 +169,7 @@ class Serial(object):
 
     def serialClose(self):
         self.serialFd.close()
+
+    # 获取机器人当前位置
+    def getPose(self):
+        self.sendMessage("get_pose")

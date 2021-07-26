@@ -76,7 +76,9 @@ def get_audio_devices_all_msg_dict(rec_file_path, speakerName):
         pass
     for device in audio_drivers_and_channels_msg_dict['Windows DirectSound']:
         if device[1] == '耳机 (High Definition Audio Device)':
-                play_audio_file(rec_file_path, device[0], 16000, mapping_ch)
+            play_audio_file(rec_file_path, device[0], 16000, mapping_ch)
+        elif device[1] == '扬声器 (High Definition Audio Device)':
+            play_audio_file(rec_file_path, device[0], 16000, mapping_ch)
 
 
 if __name__ == "__main__":

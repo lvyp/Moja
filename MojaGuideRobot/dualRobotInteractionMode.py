@@ -5,6 +5,7 @@
 # @File : dualRobotInteractionMode.py
 # @Software: PyCharm
 import math
+import os
 import time
 import datetime
 import json
@@ -42,8 +43,8 @@ def timerMachine(startTime=0.000):
 
 def parsePlot(jsonPath):
     with open(jsonPath, "r") as f:
-        poltDict = json.load(f)
-        plotList = poltDict["MoJa"]
+        plotDict = json.load(f)
+        plotList = plotDict["MoJa"]
         f.close()
 
     startTime = timerMachine()
@@ -109,32 +110,45 @@ def mapRouteSettingClearJudge():
         # 位置列为空，不发送位置信息
         # 运动状态置位，未运动
         globalVariable.moveStatus = 0
+        # 让机器人回到初始点
+        globalVariable.set_value("mapRouteSettingInitPointFlag", True)
 
 
 def switch_if():
-    if globalVariable.get_position("position2"):
-        logger.info("到达位置A")
-        parsePlot("./PLOT/Plot1.json")
-        globalVariable.set_position("position2", False)
-        mapRouteSettingClearJudge()
-    elif globalVariable.get_position("position1"):
-        logger.info("到达位置B")
-        parsePlot("Plot.json")
-        globalVariable.set_position("position1", False)
-        if globalVariable.get_position_list_len() > 0:
-            globalVariable.set_value("mapRouteSettingFlag", True)
+    if globalVariable.get_position(globalVariable.position_name):
+        logger.info("到达位置:" + globalVariable.position_name)
+        jsonFilePath = "./PLOT/" + globalVariable.position_name + ".json"
+
+        if os.path.exists(jsonFilePath):
+            parsePlot(jsonFilePath)
+            globalVariable.set_position(globalVariable.position_name, False)
+            mapRouteSettingClearJudge()
         else:
-            pass
-    elif globalVariable.get_position("positionC"):
-        logger.info("到达位置C")
-        globalVariable.set_position("positionC", False)
-        pass
-    elif globalVariable.get_position("positionD"):
-        logger.info("到达位置D")
-        globalVariable.set_position("positionD", False)
-        pass
-    else:
-        pass
+            globalVariable.set_position(globalVariable.position_name, False)
+
+    # if globalVariable.get_position("position2"):
+    #     logger.info("到达位置A")
+    #     parsePlot("./PLOT/Plot1.json")
+    #     globalVariable.set_position("position2", False)
+    #     mapRouteSettingClearJudge()
+    # elif globalVariable.get_position("position1"):
+    #     logger.info("到达位置B")
+    #     parsePlot("./PLOT/Plot.json")
+    #     globalVariable.set_position("position1", False)
+    #     if globalVariable.get_position_list_len() > 0:
+    #         globalVariable.set_value("mapRouteSettingFlag", True)
+    #     else:
+    #         pass
+    # elif globalVariable.get_position("positionC"):
+    #     logger.info("到达位置C")
+    #     globalVariable.set_position("positionC", False)
+    #     pass
+    # elif globalVariable.get_position("positionD"):
+    #     logger.info("到达位置D")
+    #     globalVariable.set_position("positionD", False)
+    #     pass
+    # else:
+    #     pass
 
 
 def dualRobotInteractionMode():

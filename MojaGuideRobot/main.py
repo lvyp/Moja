@@ -31,14 +31,14 @@ if __name__ == '__main__':
     # 创建线程：
     # actionControl = threading.Thread(target=actionControlMode)
     dualRobotInteraction = threading.Thread(target=dualRobotInteractionMode)
-    # mapRouteSetting = threading.Thread(target=mapRouteSettingMode)
+    mapRouteSetting = threading.Thread(target=mapRouteSettingMode)
     speechRecognition = threading.Thread(target=speechRecognitionMode)
-    # positionInformationFromChassis = threading.Thread(target=positionInformationFromChassisMode)
+    positionInformationFromChassis = threading.Thread(target=positionInformationFromChassisMode)
     speechRecognition.setName("speechRecognition")
     # actionControl.setName("actionControl")
     dualRobotInteraction.setName("dualRobotInteraction")
-    # mapRouteSetting.setName("mapRouteSetting")
-    # positionInformationFromChassis.setName("positionInformationFromChassis")
+    mapRouteSetting.setName("mapRouteSetting")
+    positionInformationFromChassis.setName("positionInformationFromChassis")
 
     # remoteControl = threading.Thread(target=remoteControlMode)
     # accessSystemUpdateRegularly = threading.Thread(target=accessSystemUpdateRegularlyMode)
@@ -48,9 +48,9 @@ if __name__ == '__main__':
     # 添加到线程组
     threads.append(speechRecognition)
     # threads.append(actionControl)
-    # threads.append(mapRouteSetting)
+    threads.append(mapRouteSetting)
     threads.append(dualRobotInteraction)
-    # threads.append(positionInformationFromChassis)
+    threads.append(positionInformationFromChassis)
     # threads.append(remoteControl)
     # threads.append(accessSystemUpdateRegularly)
 
